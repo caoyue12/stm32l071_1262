@@ -99,7 +99,7 @@ void SX126xInit( DioIrqHandler dioIrq )
     SX126xCalibrate( calibParam );
 
 
-    SX126xSetDio2AsRfSwitchCtrl( true );
+    SX126xSetDio2AsRfSwitchCtrl( false );
     OperatingMode = MODE_STDBY_RC;
 }
 
@@ -114,7 +114,7 @@ void SX126xCheckDeviceReady( void )
     {
         SX126xWakeup( );
         // Switch is turned off when device is in sleep mode and turned on is all other modes
-        SX126xAntSwOn( );
+        //SX126xAntSwOn( );
     }
     SX126xWaitOnBusy( );
 }
@@ -221,7 +221,7 @@ uint32_t SX126xGetRandom( void )
 
 void SX126xSetSleep( SleepParams_t sleepConfig )
 {
-    SX126xAntSwOff( );
+    //SX126xAntSwOff( );
 
     SX126xWriteCommand( RADIO_SET_SLEEP, &sleepConfig.Value, 1 );
     OperatingMode = MODE_SLEEP;

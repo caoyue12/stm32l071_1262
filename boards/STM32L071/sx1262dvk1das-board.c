@@ -33,6 +33,7 @@
  */
 Gpio_t AntPow;
 Gpio_t DeviceSel;
+Gpio_t radio_dio2;
 
 void SX126xIoInit( void )
 {
@@ -233,14 +234,32 @@ uint8_t SX126xGetPaSelect( uint32_t channel )
     }
 }
 
-void SX126xAntSwOn( void )
+//void SX126xAntSwOn( void )
+//{
+//    GpioInit( &AntPow, RADIO_ANT_SWITCH_POWER, PIN_OUTPUT, PIN_PUSH_PULL, PIN_PULL_UP, 1 );
+//}
+
+//void SX126xAntSwOff( void )
+//{
+//    GpioInit( &AntPow, RADIO_ANT_SWITCH_POWER, PIN_ANALOGIC, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
+//}
+
+void SX126xAntSwOn( void )  //TX
 {
-    GpioInit( &AntPow, RADIO_ANT_SWITCH_POWER, PIN_OUTPUT, PIN_PUSH_PULL, PIN_PULL_UP, 1 );
+	GpioInit( &AntPow, RADIO_ANT_SWITCH_POWER, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );    //  
+	GpioInit( &radio_dio2, RADIO_DIO_2, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
 }
 
-void SX126xAntSwOff( void )
+void SX126xAntSwOff( void ) //RX
 {
-    GpioInit( &AntPow, RADIO_ANT_SWITCH_POWER, PIN_ANALOGIC, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
+	GpioInit( &AntPow, RADIO_ANT_SWITCH_POWER, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
+	GpioInit( &radio_dio2, RADIO_DIO_2, PIN_OUTPUT, PIN_PUSH_PULL, PIN_NO_PULL, 0 );
+}
+
+void SX126xAntDeinit( void ) //
+{
+	GpioInit( &AntPow, RADIO_ANT_SWITCH_POWER, PIN_ANALOGIC, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
+	GpioInit( &radio_dio2, RADIO_DIO_2, PIN_ANALOGIC, PIN_PUSH_PULL, PIN_NO_PULL, 1 );
 }
 
 bool SX126xCheckRfFrequency( uint32_t frequency )

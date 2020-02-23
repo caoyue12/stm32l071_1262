@@ -3,7 +3,7 @@
 <title>Static Call Graph - [STM32L071_1262\STM32L071_1262.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image STM32L071_1262\STM32L071_1262.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sun Feb 23 15:49:27 2020
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Sun Feb 23 23:43:37 2020
 <BR><P>
 <H3>Maximum Stack Usage =        484 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -218,7 +218,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;aes_set_key
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ProcessMacCommands
 <LI><a href="#[17b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rand1
-<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeTimerTimeToAlarmTick
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeTimerTimeToAlarmTick
 <LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
 <LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetSysClockFreq
 <LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
@@ -233,7 +233,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 </UL>
-<BR>[Called By]<UL><LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;randr
+<BR>[Called By]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;randr
 </UL>
 
 <P><STRONG><a name="[58]"></a>__aeabi_uldivmod</STRONG> (Thumb, 96 bytes, Stack size 48 bytes, uldiv.o(.text))
@@ -249,10 +249,10 @@ Global Symbols
 
 <P><STRONG><a name="[ee]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTC_IRQHandler
-<LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
 <LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetCalendar
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertCalendarTickToTimerTime
-<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeTimerTimeToAlarmTick
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertCalendarTickToTimerTime
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeTimerTimeToAlarmTick
 </UL>
 
 <P><STRONG><a name="[186]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
@@ -307,7 +307,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fadd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
+<BR>[Called By]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
 </UL>
 
 <P><STRONG><a name="[62]"></a>__aeabi_frsub</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, fadd.o(.text))
@@ -315,7 +315,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fadd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
+<BR>[Called By]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
 </UL>
 
 <P><STRONG><a name="[63]"></a>__aeabi_dadd</STRONG> (Thumb, 328 bytes, Stack size 48 bytes, dadd.o(.text))
@@ -327,12 +327,12 @@ Global Symbols
 <LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
 <BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
 <LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;floor
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;floor
 <LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
-<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ceil
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ceil
 </UL>
 
 <P><STRONG><a name="[67]"></a>__aeabi_dsub</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, dadd.o(.text))
@@ -340,8 +340,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
+<BR>[Called By]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
 </UL>
 
 <P><STRONG><a name="[68]"></a>__aeabi_drsub</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, dadd.o(.text))
@@ -349,8 +349,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;floor
-<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ceil
+<BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;floor
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ceil
 </UL>
 
 <P><STRONG><a name="[69]"></a>__aeabi_dmul</STRONG> (Thumb, 202 bytes, Stack size 72 bytes, dmul.o(.text))
@@ -361,8 +361,8 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
 <LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxContinuousWave
 <LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeLoRa
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeLoRa
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertTickToMs
 </UL>
 
@@ -371,24 +371,24 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
+<BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
 <LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
 <LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeLoRa
-<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeFsk
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeLoRa
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeFsk
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
 </UL>
 
-<P><STRONG><a name="[110]"></a>__ARM_scalbn</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, dscalb.o(.text))
+<P><STRONG><a name="[112]"></a>__ARM_scalbn</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, dscalb.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __ARM_scalbn
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
 <LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
 <LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertTickToMs
 </UL>
 
@@ -399,7 +399,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_float_epilogue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
+<BR>[Called By]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ProcessMacCommands
 </UL>
 
@@ -409,8 +409,8 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
 <BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeLoRa
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeLoRa
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
 </UL>
 
 <P><STRONG><a name="[6d]"></a>__aeabi_ui2d</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, dfltui.o(.text))
@@ -418,15 +418,15 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
+<BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
 <LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
 <LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxContinuousWave
 <LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
-<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeLoRa
-<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeFsk
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeLoRa
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeFsk
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertTickToMs
 </UL>
 
@@ -435,8 +435,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
 </UL>
-<BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
+<BR>[Called By]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
 </UL>
 
 <P><STRONG><a name="[6f]"></a>__aeabi_d2uiz</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, dfixui.o(.text))
@@ -444,25 +444,25 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
+<BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
 <LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
 <LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxContinuousWave
 <LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertTickToMs
 </UL>
 
-<P><STRONG><a name="[12a]"></a>__aeabi_f2d</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, f2d.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
+<P><STRONG><a name="[12c]"></a>__aeabi_f2d</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, f2d.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
 </UL>
 
-<P><STRONG><a name="[117]"></a>__aeabi_cdrcmple</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, cdrcmple.o(.text))
+<P><STRONG><a name="[119]"></a>__aeabi_cdrcmple</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, cdrcmple.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;floor
-<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ceil
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;floor
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ceil
 </UL>
 
 <P><STRONG><a name="[5a]"></a>__aeabi_llsl</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, llshl.o(.text))
@@ -539,14 +539,14 @@ Global Symbols
 <LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
 <LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
-<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rint
+<BR>[Called By]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rint
 </UL>
 
 <P><STRONG><a name="[191]"></a>__aeabi_cdcmpeq</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, cdcmple.o(.text), UNUSED)
 
 <P><STRONG><a name="[17c]"></a>__aeabi_cdcmple</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, cdcmple.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
+<BR><BR>[Called By]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
 </UL>
 
 <P><STRONG><a name="[55]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
@@ -693,8 +693,8 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GpioMcuInit
 </UL>
 <BR>[Called By]<UL><LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReset
-<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xAntSwOn
-<LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xAntSwOff
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xAntSwOn
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xAntSwOff
 <LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiInit
 <LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xIoInit
 </UL>
@@ -760,7 +760,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 <LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWakeup
 <LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
-<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
 <LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteBuffer
 <LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
 <LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadBuffer
@@ -914,7 +914,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RTC_AlarmIRQHandler
 </UL>
 
-<P><STRONG><a name="[14e]"></a>HAL_RTCEx_EnableBypassShadow</STRONG> (Thumb, 60 bytes, Stack size 12 bytes, stm32l0xx_hal_rtc_ex.o(i.HAL_RTCEx_EnableBypassShadow))
+<P><STRONG><a name="[150]"></a>HAL_RTCEx_EnableBypassShadow</STRONG> (Thumb, 60 bytes, Stack size 12 bytes, stm32l0xx_hal_rtc_ex.o(i.HAL_RTCEx_EnableBypassShadow))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = HAL_RTCEx_EnableBypassShadow
 </UL>
 <BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcInit
@@ -939,7 +939,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTC_IRQHandler
-<LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
 </UL>
 
 <P><STRONG><a name="[a6]"></a>HAL_RTC_GetAlarm</STRONG> (Thumb, 134 bytes, Stack size 20 bytes, stm32l0xx_hal_rtc.o(i.HAL_RTC_GetAlarm))
@@ -986,7 +986,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 <LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTC_ByteToBcd2
 </UL>
-<BR>[Called By]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
+<BR>[Called By]<UL><LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
 </UL>
 
 <P><STRONG><a name="[b0]"></a>HAL_RTC_SetDate</STRONG> (Thumb, 190 bytes, Stack size 24 bytes, stm32l0xx_hal_rtc.o(i.HAL_RTC_SetDate))
@@ -1284,7 +1284,7 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[39]"></a>RadioInit</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, radio.o(i.RadioInit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = RadioInit &rArr; SX126xSetTxParams &rArr; SX126xSetPaConfig &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = RadioInit &rArr; SX126xInit &rArr; SX126xReset &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerInit
 <LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
@@ -1340,7 +1340,7 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(i.RadioInit)
 </UL>
 <P><STRONG><a name="[3e]"></a>RadioRandom</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, radio.o(i.RadioRandom))
-<BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = RadioRandom &rArr; RadioSetModem &rArr; RadioSetPublicNetwork &rArr;  RadioSetModem (Cycle)
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = RadioRandom &rArr; RadioSetModem &rArr; RadioSetPublicNetwork &rArr;  RadioSetModem (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRx
 <LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRssiInst
@@ -1351,33 +1351,34 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[4b]"></a>RadioRead</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, radio.o(i.RadioRead))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = RadioRead &rArr; SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = RadioRead &rArr; SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[4d]"></a>RadioReadBuffer</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, radio.o(i.RadioReadBuffer))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = RadioReadBuffer &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = RadioReadBuffer &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[49]"></a>RadioRssi</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, radio.o(i.RadioRssi))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = RadioRssi &rArr; SX126xGetRssiInst &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = RadioRssi &rArr; SX126xGetRssiInst &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRssiInst
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
-<P><STRONG><a name="[46]"></a>RadioRx</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, radio.o(i.RadioRx))
+<P><STRONG><a name="[46]"></a>RadioRx</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, radio.o(i.RadioRx))
 <BR><BR>[Stack]<UL><LI>Max Depth = 276<LI>Call Chain = RadioRx &rArr; TimerSetValue &rArr; TimerStop &rArr; TimerSetTimeout &rArr; RtcSetTimeout &rArr; RtcStartWakeUpAlarm &rArr; RtcComputeTimerTimeToAlarmTick &rArr; __aeabi_uidivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerStart
 <LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetValue
 <LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRx
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDioIrqParams
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xAntSwOff
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIsChannelFree
 </UL>
@@ -1388,41 +1389,42 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerStart
 <LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetValue
-<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxBoosted
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxBoosted
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDioIrqParams
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
-<P><STRONG><a name="[43]"></a>RadioSend</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, radio.o(i.RadioSend))
+<P><STRONG><a name="[43]"></a>RadioSend</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, radio.o(i.RadioSend))
 <BR><BR>[Stack]<UL><LI>Max Depth = 284<LI>Call Chain = RadioSend &rArr; TimerSetValue &rArr; TimerStop &rArr; TimerSetTimeout &rArr; RtcSetTimeout &rArr; RtcStartWakeUpAlarm &rArr; RtcComputeTimerTimeToAlarmTick &rArr; __aeabi_uidivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerStart
 <LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetValue
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDioIrqParams
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSendPayload
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetPacketType
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSendPayload
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetPacketType
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xAntSwOn
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[3c]"></a>RadioSetChannel</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, radio.o(i.RadioSetChannel))
-<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = RadioSetChannel &rArr; SX126xSetRfFrequency &rArr; SX126xCalibrateImage &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = RadioSetChannel &rArr; SX126xSetRfFrequency &rArr; SX126xCalibrateImage &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[4e]"></a>RadioSetMaxPayloadLength</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, radio.o(i.RadioSetMaxPayloadLength))
-<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = RadioSetMaxPayloadLength &rArr; SX126xSetPacketParams &rArr; SX126xSetPacketType &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = RadioSetMaxPayloadLength &rArr; SX126xSetPacketParams &rArr; SX126xSetPacketType &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<BR>[Calls]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[3b]"></a>RadioSetModem</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, radio.o(i.RadioSetModem))
-<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = RadioSetModem &rArr; RadioSetPublicNetwork &rArr;  RadioSetModem (Cycle)
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = RadioSetModem &rArr; RadioSetPublicNetwork &rArr;  RadioSetModem (Cycle)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
+<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
 <LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetPublicNetwork
 </UL>
 <BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
@@ -1434,10 +1436,10 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[4f]"></a>RadioSetPublicNetwork</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, radio.o(i.RadioSetPublicNetwork))
-<BR><BR>[Stack]<UL><LI>Max Depth = 200 + In Cycle
+<BR><BR>[Stack]<UL><LI>Max Depth = 128 + In Cycle
 <LI>Call Chain = RadioSetPublicNetwork &rArr;  RadioSetModem (Cycle)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
 <LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
@@ -1445,43 +1447,43 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[3f]"></a>RadioSetRxConfig</STRONG> (Thumb, 388 bytes, Stack size 56 bytes, radio.o(i.RadioSetRxConfig))
-<BR><BR>[Stack]<UL><LI>Max Depth = 240<LI>Call Chain = RadioSetRxConfig &rArr; SX126xSetPacketParams &rArr; SX126xSetPacketType &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = RadioSetRxConfig &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
 <LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2uiz
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSyncWord
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStopRxTimerOnPreambleDetect
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSyncWord
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStopRxTimerOnPreambleDetect
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetLoRaSymbNumTimeout
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetLoRaSymbNumTimeout
 <LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioGetFskBandwidthRegValue
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioGetFskBandwidthRegValue
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[53]"></a>RadioSetRxDutyCycle</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, radio.o(i.RadioSetRxDutyCycle))
-<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = RadioSetRxDutyCycle &rArr; SX126xSetRxDutyCycle &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = RadioSetRxDutyCycle &rArr; SX126xSetRxDutyCycle &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxDutyCycle
+<BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxDutyCycle
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[40]"></a>RadioSetTxConfig</STRONG> (Thumb, 298 bytes, Stack size 56 bytes, radio.o(i.RadioSetTxConfig))
-<BR><BR>[Stack]<UL><LI>Max Depth = 256<LI>Call Chain = RadioSetTxConfig &rArr; SX126xSetRfTxPower &rArr; SX126xSetTxParams &rArr; SX126xSetPaConfig &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = RadioSetTxConfig &rArr; SX126xSetRfTxPower &rArr; SX126xSetTxParams &rArr; SX126xSetPaConfig &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSyncWord
+<BR>[Calls]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSyncWord
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
-<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfTxPower
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfTxPower
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
 <LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioGetFskBandwidthRegValue
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioGetFskBandwidthRegValue
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
@@ -1493,16 +1495,16 @@ Global Symbols
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2uiz
 <LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerStart
 <LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetValue
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxContinuousWave
-<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfTxPower
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxContinuousWave
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfTxPower
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[44]"></a>RadioSleep</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, radio.o(i.RadioSleep))
-<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = RadioSleep &rArr; SX126xSetSleep &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = RadioSleep &rArr; SX126xSetSleep &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSleep
+<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSleep
 <LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DelayMs
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRandom
@@ -1511,16 +1513,16 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[45]"></a>RadioStandby</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, radio.o(i.RadioStandby))
-<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = RadioStandby &rArr; SX126xSetStandby &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = RadioStandby &rArr; SX126xSetStandby &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[47]"></a>RadioStartCad</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, radio.o(i.RadioStartCad))
-<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = RadioStartCad &rArr; SX126xSetCad &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = RadioStartCad &rArr; SX126xSetCad &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCad
+<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCad
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
@@ -1533,32 +1535,32 @@ Global Symbols
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2uiz
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
-<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rint
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;floor
-<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ceil
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rint
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;floor
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ceil
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[4a]"></a>RadioWrite</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, radio.o(i.RadioWrite))
-<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = RadioWrite &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = RadioWrite &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[4c]"></a>RadioWriteBuffer</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, radio.o(i.RadioWriteBuffer))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = RadioWriteBuffer &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = RadioWriteBuffer &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
 </UL>
 <P><STRONG><a name="[e7]"></a>RegionAdrNext</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, region.o(i.RegionAdrNext))
 <BR><BR>[Stack]<UL><LI>Max Depth = 116<LI>Call Chain = RegionAdrNext &rArr; RegionEU868AdrNext &rArr; RegionEU868GetPhyParam &rArr; randr &rArr; __aeabi_idivmod &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868AdrNext
+<BR>[Calls]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868AdrNext
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PrepareFrame
 </UL>
@@ -1566,7 +1568,7 @@ Global Symbols
 <P><STRONG><a name="[d0]"></a>RegionAlternateDr</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, region.o(i.RegionAlternateDr))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = RegionAlternateDr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868AlternateDr
+<BR>[Calls]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868AlternateDr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacMlmeRequest
 </UL>
@@ -1574,23 +1576,23 @@ Global Symbols
 <P><STRONG><a name="[de]"></a>RegionApplyCFList</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, region.o(i.RegionApplyCFList))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = RegionApplyCFList &rArr; RegionEU868ApplyCFList &rArr; RegionEU868ChannelAdd &rArr; VerifyTxFreq
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ApplyCFList
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ApplyCFList
 </UL>
 <BR>[Called By]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OnRadioRxDone
 </UL>
 
-<P><STRONG><a name="[11e]"></a>RegionApplyDrOffset</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, region.o(i.RegionApplyDrOffset))
+<P><STRONG><a name="[120]"></a>RegionApplyDrOffset</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, region.o(i.RegionApplyDrOffset))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = RegionApplyDrOffset
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ApplyDrOffset
+<BR>[Calls]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ApplyDrOffset
 </UL>
 <BR>[Called By]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ScheduleTx
 </UL>
 
-<P><STRONG><a name="[120]"></a>RegionCalcBackOff</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, region.o(i.RegionCalcBackOff))
+<P><STRONG><a name="[122]"></a>RegionCalcBackOff</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, region.o(i.RegionCalcBackOff))
 <BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = RegionCalcBackOff &rArr; RegionEU868CalcBackOff &rArr; RegionCommonCalcBackOff
 </UL>
-<BR>[Calls]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868CalcBackOff
+<BR>[Calls]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868CalcBackOff
 </UL>
 <BR>[Called By]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ScheduleTx
 </UL>
@@ -1598,41 +1600,41 @@ Global Symbols
 <P><STRONG><a name="[ce]"></a>RegionChanMaskSet</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, region.o(i.RegionChanMaskSet))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = RegionChanMaskSet &rArr; RegionEU868ChanMaskSet &rArr; RegionCommonChanMaskCopy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChanMaskSet
+<BR>[Calls]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChanMaskSet
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacMibSetRequestConfirm
 </UL>
 
-<P><STRONG><a name="[123]"></a>RegionCommonCalcBackOff</STRONG> (Thumb, 92 bytes, Stack size 12 bytes, regioncommon.o(i.RegionCommonCalcBackOff))
+<P><STRONG><a name="[125]"></a>RegionCommonCalcBackOff</STRONG> (Thumb, 92 bytes, Stack size 12 bytes, regioncommon.o(i.RegionCommonCalcBackOff))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = RegionCommonCalcBackOff
 </UL>
-<BR>[Calls]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonGetJoinDc
+<BR>[Calls]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonGetJoinDc
 </UL>
-<BR>[Called By]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868CalcBackOff
+<BR>[Called By]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868CalcBackOff
 </UL>
 
-<P><STRONG><a name="[134]"></a>RegionCommonChanDisable</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, regioncommon.o(i.RegionCommonChanDisable))
+<P><STRONG><a name="[136]"></a>RegionCommonChanDisable</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, regioncommon.o(i.RegionCommonChanDisable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = RegionCommonChanDisable
 </UL>
-<BR>[Called By]<UL><LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelsRemove
+<BR>[Called By]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelsRemove
 </UL>
 
-<P><STRONG><a name="[132]"></a>RegionCommonChanMaskCopy</STRONG> (Thumb, 30 bytes, Stack size 12 bytes, regioncommon.o(i.RegionCommonChanMaskCopy))
+<P><STRONG><a name="[134]"></a>RegionCommonChanMaskCopy</STRONG> (Thumb, 30 bytes, Stack size 12 bytes, regioncommon.o(i.RegionCommonChanMaskCopy))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = RegionCommonChanMaskCopy
 </UL>
-<BR>[Called By]<UL><LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868InitDefaults
-<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChanMaskSet
+<BR>[Called By]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868InitDefaults
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChanMaskSet
 </UL>
 
-<P><STRONG><a name="[125]"></a>RegionCommonChanVerifyDr</STRONG> (Thumb, 96 bytes, Stack size 36 bytes, regioncommon.o(i.RegionCommonChanVerifyDr))
+<P><STRONG><a name="[127]"></a>RegionCommonChanVerifyDr</STRONG> (Thumb, 96 bytes, Stack size 36 bytes, regioncommon.o(i.RegionCommonChanVerifyDr))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = RegionCommonChanVerifyDr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonValueInRange
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonLinkAdrReqVerifyParams
+<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonLinkAdrReqVerifyParams
 </UL>
 
-<P><STRONG><a name="[126]"></a>RegionCommonComputeRxWindowParameters</STRONG> (Thumb, 144 bytes, Stack size 32 bytes, regioncommon.o(i.RegionCommonComputeRxWindowParameters))
+<P><STRONG><a name="[128]"></a>RegionCommonComputeRxWindowParameters</STRONG> (Thumb, 144 bytes, Stack size 32 bytes, regioncommon.o(i.RegionCommonComputeRxWindowParameters))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = RegionCommonComputeRxWindowParameters &rArr; ceil &rArr; __aeabi_drsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
@@ -1641,24 +1643,24 @@ Global Symbols
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2uiz
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
 <LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
 <LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2iz
-<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ceil
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ceil
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ComputeRxWindowParameters
+<BR>[Called By]<UL><LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ComputeRxWindowParameters
 </UL>
 
-<P><STRONG><a name="[127]"></a>RegionCommonComputeSymbolTimeFsk</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, regioncommon.o(i.RegionCommonComputeSymbolTimeFsk))
+<P><STRONG><a name="[129]"></a>RegionCommonComputeSymbolTimeFsk</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, regioncommon.o(i.RegionCommonComputeSymbolTimeFsk))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = RegionCommonComputeSymbolTimeFsk &rArr; __aeabi_ui2d &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ComputeRxWindowParameters
+<BR>[Called By]<UL><LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ComputeRxWindowParameters
 </UL>
 
-<P><STRONG><a name="[128]"></a>RegionCommonComputeSymbolTimeLoRa</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, regioncommon.o(i.RegionCommonComputeSymbolTimeLoRa))
+<P><STRONG><a name="[12a]"></a>RegionCommonComputeSymbolTimeLoRa</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, regioncommon.o(i.RegionCommonComputeSymbolTimeLoRa))
 <BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = RegionCommonComputeSymbolTimeLoRa &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
@@ -1666,71 +1668,71 @@ Global Symbols
 <LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ComputeRxWindowParameters
+<BR>[Called By]<UL><LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ComputeRxWindowParameters
 </UL>
 
-<P><STRONG><a name="[129]"></a>RegionCommonComputeTxPower</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, regioncommon.o(i.RegionCommonComputeTxPower))
+<P><STRONG><a name="[12b]"></a>RegionCommonComputeTxPower</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, regioncommon.o(i.RegionCommonComputeTxPower))
 <BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = RegionCommonComputeTxPower &rArr; floor &rArr; __aeabi_drsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2f
 <LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fsub
 <LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_frsub
-<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2d
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2d
 <LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2iz
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;floor
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;floor
 </UL>
-<BR>[Called By]<UL><LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868TxConfig
-<LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868SetContinuousWave
+<BR>[Called By]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868TxConfig
+<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868SetContinuousWave
 </UL>
 
-<P><STRONG><a name="[13c]"></a>RegionCommonCountChannels</STRONG> (Thumb, 68 bytes, Stack size 20 bytes, regioncommon.o(i.RegionCommonCountChannels))
+<P><STRONG><a name="[13e]"></a>RegionCommonCountChannels</STRONG> (Thumb, 68 bytes, Stack size 20 bytes, regioncommon.o(i.RegionCommonCountChannels))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = RegionCommonCountChannels
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
+<BR>[Called By]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
 </UL>
 
-<P><STRONG><a name="[124]"></a>RegionCommonGetJoinDc</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, regioncommon.o(i.RegionCommonGetJoinDc))
-<BR><BR>[Called By]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonCalcBackOff
+<P><STRONG><a name="[126]"></a>RegionCommonGetJoinDc</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, regioncommon.o(i.RegionCommonGetJoinDc))
+<BR><BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonCalcBackOff
 </UL>
 
-<P><STRONG><a name="[12b]"></a>RegionCommonLinkAdrReqVerifyParams</STRONG> (Thumb, 152 bytes, Stack size 48 bytes, regioncommon.o(i.RegionCommonLinkAdrReqVerifyParams))
+<P><STRONG><a name="[12d]"></a>RegionCommonLinkAdrReqVerifyParams</STRONG> (Thumb, 152 bytes, Stack size 48 bytes, regioncommon.o(i.RegionCommonLinkAdrReqVerifyParams))
 <BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = RegionCommonLinkAdrReqVerifyParams &rArr; RegionCommonChanVerifyDr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonValueInRange
-<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonChanVerifyDr
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonChanVerifyDr
 </UL>
-<BR>[Called By]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868LinkAdrReq
-</UL>
-
-<P><STRONG><a name="[139]"></a>RegionCommonParseLinkAdrReq</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, regioncommon.o(i.RegionCommonParseLinkAdrReq))
-<BR><BR>[Called By]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868LinkAdrReq
+<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868LinkAdrReq
 </UL>
 
-<P><STRONG><a name="[13f]"></a>RegionCommonSetBandTxDone</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, regioncommon.o(i.RegionCommonSetBandTxDone))
-<BR><BR>[Called By]<UL><LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868SetBandTxDone
+<P><STRONG><a name="[13b]"></a>RegionCommonParseLinkAdrReq</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, regioncommon.o(i.RegionCommonParseLinkAdrReq))
+<BR><BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868LinkAdrReq
 </UL>
 
-<P><STRONG><a name="[12c]"></a>RegionCommonUpdateBandTimeOff</STRONG> (Thumb, 190 bytes, Stack size 40 bytes, regioncommon.o(i.RegionCommonUpdateBandTimeOff))
+<P><STRONG><a name="[141]"></a>RegionCommonSetBandTxDone</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, regioncommon.o(i.RegionCommonSetBandTxDone))
+<BR><BR>[Called By]<UL><LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868SetBandTxDone
+</UL>
+
+<P><STRONG><a name="[12e]"></a>RegionCommonUpdateBandTimeOff</STRONG> (Thumb, 190 bytes, Stack size 40 bytes, regioncommon.o(i.RegionCommonUpdateBandTimeOff))
 <BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = RegionCommonUpdateBandTimeOff &rArr; TimerGetElapsedTime &rArr; RtcComputeElapsedTime &rArr; RtcConvertTickToMs &rArr; round &rArr; __aeabi_dsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerGetElapsedTime
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
+<BR>[Called By]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
 </UL>
 
 <P><STRONG><a name="[85]"></a>RegionCommonValueInRange</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, regioncommon.o(i.RegionCommonValueInRange))
-<BR><BR>[Called By]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonLinkAdrReqVerifyParams
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868Verify
-<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868RxParamSetupReq
-<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelAdd
+<BR><BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonLinkAdrReqVerifyParams
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868Verify
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868RxParamSetupReq
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelAdd
 <LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CountNbOfEnabledChannels
-<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonChanVerifyDr
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonChanVerifyDr
 </UL>
 
 <P><STRONG><a name="[cc]"></a>RegionComputeRxWindowParameters</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, region.o(i.RegionComputeRxWindowParameters))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = RegionComputeRxWindowParameters &rArr; RegionEU868ComputeRxWindowParameters &rArr; RegionCommonComputeRxWindowParameters &rArr; ceil &rArr; __aeabi_drsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ComputeRxWindowParameters
+<BR>[Calls]<UL><LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ComputeRxWindowParameters
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacMibSetRequestConfirm
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ScheduleTx
@@ -1739,149 +1741,149 @@ Global Symbols
 <P><STRONG><a name="[ec]"></a>RegionDlChannelReq</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, region.o(i.RegionDlChannelReq))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = RegionDlChannelReq &rArr; RegionEU868DlChannelReq &rArr; VerifyTxFreq
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868DlChannelReq
+<BR>[Calls]<UL><LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868DlChannelReq
 </UL>
 <BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ProcessMacCommands
 </UL>
 
-<P><STRONG><a name="[11b]"></a>RegionEU868AdrNext</STRONG> (Thumb, 116 bytes, Stack size 40 bytes, regioneu868.o(i.RegionEU868AdrNext))
+<P><STRONG><a name="[11d]"></a>RegionEU868AdrNext</STRONG> (Thumb, 116 bytes, Stack size 40 bytes, regioneu868.o(i.RegionEU868AdrNext))
 <BR><BR>[Stack]<UL><LI>Max Depth = 100<LI>Call Chain = RegionEU868AdrNext &rArr; RegionEU868GetPhyParam &rArr; randr &rArr; __aeabi_idivmod &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868GetPhyParam
+<BR>[Calls]<UL><LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868GetPhyParam
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionAdrNext
 </UL>
 
-<P><STRONG><a name="[11c]"></a>RegionEU868AlternateDr</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, regioneu868.o(i.RegionEU868AlternateDr))
+<P><STRONG><a name="[11e]"></a>RegionEU868AlternateDr</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, regioneu868.o(i.RegionEU868AlternateDr))
 <BR><BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionAlternateDr
 </UL>
 
-<P><STRONG><a name="[11d]"></a>RegionEU868ApplyCFList</STRONG> (Thumb, 116 bytes, Stack size 48 bytes, regioneu868.o(i.RegionEU868ApplyCFList))
+<P><STRONG><a name="[11f]"></a>RegionEU868ApplyCFList</STRONG> (Thumb, 116 bytes, Stack size 48 bytes, regioneu868.o(i.RegionEU868ApplyCFList))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = RegionEU868ApplyCFList &rArr; RegionEU868ChannelAdd &rArr; VerifyTxFreq
 </UL>
-<BR>[Calls]<UL><LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelsRemove
-<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelAdd
+<BR>[Calls]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelsRemove
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelAdd
 </UL>
 <BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionApplyCFList
 </UL>
 
-<P><STRONG><a name="[11f]"></a>RegionEU868ApplyDrOffset</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, regioneu868.o(i.RegionEU868ApplyDrOffset))
-<BR><BR>[Called By]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionApplyDrOffset
+<P><STRONG><a name="[121]"></a>RegionEU868ApplyDrOffset</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, regioneu868.o(i.RegionEU868ApplyDrOffset))
+<BR><BR>[Called By]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionApplyDrOffset
 </UL>
 
-<P><STRONG><a name="[121]"></a>RegionEU868CalcBackOff</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, regioneu868.o(i.RegionEU868CalcBackOff))
+<P><STRONG><a name="[123]"></a>RegionEU868CalcBackOff</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, regioneu868.o(i.RegionEU868CalcBackOff))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = RegionEU868CalcBackOff &rArr; RegionCommonCalcBackOff
 </UL>
-<BR>[Calls]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonCalcBackOff
+<BR>[Calls]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonCalcBackOff
 </UL>
-<BR>[Called By]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCalcBackOff
+<BR>[Called By]<UL><LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCalcBackOff
 </UL>
 
-<P><STRONG><a name="[122]"></a>RegionEU868ChanMaskSet</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, regioneu868.o(i.RegionEU868ChanMaskSet))
+<P><STRONG><a name="[124]"></a>RegionEU868ChanMaskSet</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, regioneu868.o(i.RegionEU868ChanMaskSet))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = RegionEU868ChanMaskSet &rArr; RegionCommonChanMaskCopy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonChanMaskCopy
+<BR>[Calls]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonChanMaskCopy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionChanMaskSet
 </UL>
 
-<P><STRONG><a name="[130]"></a>RegionEU868ChannelAdd</STRONG> (Thumb, 212 bytes, Stack size 24 bytes, regioneu868.o(i.RegionEU868ChannelAdd))
+<P><STRONG><a name="[132]"></a>RegionEU868ChannelAdd</STRONG> (Thumb, 212 bytes, Stack size 24 bytes, regioneu868.o(i.RegionEU868ChannelAdd))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = RegionEU868ChannelAdd &rArr; VerifyTxFreq
 </UL>
 <BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonValueInRange
 <LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;memcpy1
-<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VerifyTxFreq
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VerifyTxFreq
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NewChannelReq
-<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ApplyCFList
+<BR>[Called By]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NewChannelReq
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ApplyCFList
 </UL>
 
-<P><STRONG><a name="[131]"></a>RegionEU868ChannelsRemove</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, regioneu868.o(i.RegionEU868ChannelsRemove))
+<P><STRONG><a name="[133]"></a>RegionEU868ChannelsRemove</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, regioneu868.o(i.RegionEU868ChannelsRemove))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = RegionEU868ChannelsRemove &rArr; RegionCommonChanDisable
 </UL>
-<BR>[Calls]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonChanDisable
+<BR>[Calls]<UL><LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonChanDisable
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NewChannelReq
-<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ApplyCFList
+<BR>[Called By]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NewChannelReq
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ApplyCFList
 </UL>
 
-<P><STRONG><a name="[12d]"></a>RegionEU868ComputeRxWindowParameters</STRONG> (Thumb, 92 bytes, Stack size 48 bytes, regioneu868.o(i.RegionEU868ComputeRxWindowParameters))
+<P><STRONG><a name="[12f]"></a>RegionEU868ComputeRxWindowParameters</STRONG> (Thumb, 92 bytes, Stack size 48 bytes, regioneu868.o(i.RegionEU868ComputeRxWindowParameters))
 <BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = RegionEU868ComputeRxWindowParameters &rArr; RegionCommonComputeRxWindowParameters &rArr; ceil &rArr; __aeabi_drsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeLoRa
-<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeFsk
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
-<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetBandwidth
+<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeLoRa
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeSymbolTimeFsk
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
+<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetBandwidth
 </UL>
 <BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionComputeRxWindowParameters
 </UL>
 
-<P><STRONG><a name="[12e]"></a>RegionEU868DlChannelReq</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, regioneu868.o(i.RegionEU868DlChannelReq))
+<P><STRONG><a name="[130]"></a>RegionEU868DlChannelReq</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, regioneu868.o(i.RegionEU868DlChannelReq))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = RegionEU868DlChannelReq &rArr; VerifyTxFreq
 </UL>
-<BR>[Calls]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VerifyTxFreq
+<BR>[Calls]<UL><LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VerifyTxFreq
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionDlChannelReq
 </UL>
 
-<P><STRONG><a name="[12f]"></a>RegionEU868GetPhyParam</STRONG> (Thumb, 164 bytes, Stack size 16 bytes, regioneu868.o(i.RegionEU868GetPhyParam))
+<P><STRONG><a name="[131]"></a>RegionEU868GetPhyParam</STRONG> (Thumb, 164 bytes, Stack size 16 bytes, regioneu868.o(i.RegionEU868GetPhyParam))
 <BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = RegionEU868GetPhyParam &rArr; randr &rArr; __aeabi_idivmod &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;randr
+<BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;randr
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
 </UL>
-<BR>[Called By]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868LinkAdrReq
-<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868AdrNext
+<BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868LinkAdrReq
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868AdrNext
 <LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionGetPhyParam
 </UL>
 
-<P><STRONG><a name="[137]"></a>RegionEU868InitDefaults</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, regioneu868.o(i.RegionEU868InitDefaults))
+<P><STRONG><a name="[139]"></a>RegionEU868InitDefaults</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, regioneu868.o(i.RegionEU868InitDefaults))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = RegionEU868InitDefaults &rArr; RegionCommonChanMaskCopy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonChanMaskCopy
+<BR>[Calls]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonChanMaskCopy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionInitDefaults
 </UL>
 
-<P><STRONG><a name="[138]"></a>RegionEU868LinkAdrReq</STRONG> (Thumb, 286 bytes, Stack size 96 bytes, regioneu868.o(i.RegionEU868LinkAdrReq))
+<P><STRONG><a name="[13a]"></a>RegionEU868LinkAdrReq</STRONG> (Thumb, 286 bytes, Stack size 96 bytes, regioneu868.o(i.RegionEU868LinkAdrReq))
 <BR><BR>[Stack]<UL><LI>Max Depth = 180<LI>Call Chain = RegionEU868LinkAdrReq &rArr; RegionCommonLinkAdrReqVerifyParams &rArr; RegionCommonChanVerifyDr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonParseLinkAdrReq
-<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonLinkAdrReqVerifyParams
-<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868GetPhyParam
+<BR>[Calls]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonParseLinkAdrReq
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonLinkAdrReqVerifyParams
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868GetPhyParam
 <LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;memset1
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionLinkAdrReq
 </UL>
 
-<P><STRONG><a name="[13a]"></a>RegionEU868NewChannelReq</STRONG> (Thumb, 72 bytes, Stack size 24 bytes, regioneu868.o(i.RegionEU868NewChannelReq))
+<P><STRONG><a name="[13c]"></a>RegionEU868NewChannelReq</STRONG> (Thumb, 72 bytes, Stack size 24 bytes, regioneu868.o(i.RegionEU868NewChannelReq))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = RegionEU868NewChannelReq &rArr; RegionEU868ChannelAdd &rArr; VerifyTxFreq
 </UL>
-<BR>[Calls]<UL><LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelsRemove
-<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelAdd
+<BR>[Calls]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelsRemove
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelAdd
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionNewChannelReq
 </UL>
 
-<P><STRONG><a name="[13b]"></a>RegionEU868NextChannel</STRONG> (Thumb, 178 bytes, Stack size 72 bytes, regioneu868.o(i.RegionEU868NextChannel))
+<P><STRONG><a name="[13d]"></a>RegionEU868NextChannel</STRONG> (Thumb, 178 bytes, Stack size 72 bytes, regioneu868.o(i.RegionEU868NextChannel))
 <BR><BR>[Stack]<UL><LI>Max Depth = 280<LI>Call Chain = RegionEU868NextChannel &rArr; RegionCommonUpdateBandTimeOff &rArr; TimerGetElapsedTime &rArr; RtcComputeElapsedTime &rArr; RtcConvertTickToMs &rArr; round &rArr; __aeabi_dsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerGetElapsedTime
-<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;randr
-<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonUpdateBandTimeOff
-<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonCountChannels
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;randr
+<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonUpdateBandTimeOff
+<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonCountChannels
 <LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CountNbOfEnabledChannels
 </UL>
-<BR>[Called By]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionNextChannel
+<BR>[Called By]<UL><LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionNextChannel
 </UL>
 
-<P><STRONG><a name="[144]"></a>RegionEU868RxConfig</STRONG> (Thumb, 202 bytes, Stack size 80 bytes, regioneu868.o(i.RegionEU868RxConfig))
+<P><STRONG><a name="[146]"></a>RegionEU868RxConfig</STRONG> (Thumb, 202 bytes, Stack size 80 bytes, regioneu868.o(i.RegionEU868RxConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = RegionEU868RxConfig
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionRxConfig
 </UL>
 
-<P><STRONG><a name="[13d]"></a>RegionEU868RxParamSetupReq</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, regioneu868.o(i.RegionEU868RxParamSetupReq))
+<P><STRONG><a name="[13f]"></a>RegionEU868RxParamSetupReq</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, regioneu868.o(i.RegionEU868RxParamSetupReq))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = RegionEU868RxParamSetupReq
 </UL>
 <BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonValueInRange
@@ -1889,36 +1891,36 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionRxParamSetupReq
 </UL>
 
-<P><STRONG><a name="[13e]"></a>RegionEU868SetBandTxDone</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, regioneu868.o(i.RegionEU868SetBandTxDone))
+<P><STRONG><a name="[140]"></a>RegionEU868SetBandTxDone</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, regioneu868.o(i.RegionEU868SetBandTxDone))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = RegionEU868SetBandTxDone
 </UL>
-<BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonSetBandTxDone
+<BR>[Calls]<UL><LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonSetBandTxDone
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionSetBandTxDone
 </UL>
 
-<P><STRONG><a name="[140]"></a>RegionEU868SetContinuousWave</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, regioneu868.o(i.RegionEU868SetContinuousWave))
+<P><STRONG><a name="[142]"></a>RegionEU868SetContinuousWave</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, regioneu868.o(i.RegionEU868SetContinuousWave))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = RegionEU868SetContinuousWave &rArr; RegionCommonComputeTxPower &rArr; floor &rArr; __aeabi_drsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
+<BR>[Calls]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
 </UL>
-<BR>[Called By]<UL><LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionSetContinuousWave
+<BR>[Called By]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionSetContinuousWave
 </UL>
 
-<P><STRONG><a name="[141]"></a>RegionEU868TxConfig</STRONG> (Thumb, 196 bytes, Stack size 80 bytes, regioneu868.o(i.RegionEU868TxConfig))
+<P><STRONG><a name="[143]"></a>RegionEU868TxConfig</STRONG> (Thumb, 196 bytes, Stack size 80 bytes, regioneu868.o(i.RegionEU868TxConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = RegionEU868TxConfig &rArr; RegionCommonComputeTxPower &rArr; floor &rArr; __aeabi_drsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
-<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetBandwidth
+<BR>[Calls]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
+<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetBandwidth
 </UL>
-<BR>[Called By]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionTxConfig
+<BR>[Called By]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionTxConfig
 </UL>
 
-<P><STRONG><a name="[147]"></a>RegionEU868TxParamSetupReq</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, regioneu868.o(i.RegionEU868TxParamSetupReq))
+<P><STRONG><a name="[149]"></a>RegionEU868TxParamSetupReq</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, regioneu868.o(i.RegionEU868TxParamSetupReq))
 <BR><BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionTxParamSetupReq
 </UL>
 
-<P><STRONG><a name="[142]"></a>RegionEU868Verify</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, regioneu868.o(i.RegionEU868Verify))
+<P><STRONG><a name="[144]"></a>RegionEU868Verify</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, regioneu868.o(i.RegionEU868Verify))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = RegionEU868Verify &rArr; __ARM_common_switch8
 </UL>
 <BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonValueInRange
@@ -1930,7 +1932,7 @@ Global Symbols
 <P><STRONG><a name="[c0]"></a>RegionGetPhyParam</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, region.o(i.RegionGetPhyParam))
 <BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = RegionGetPhyParam &rArr; RegionEU868GetPhyParam &rArr; randr &rArr; __aeabi_idivmod &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868GetPhyParam
+<BR>[Calls]<UL><LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868GetPhyParam
 </UL>
 <BR>[Called By]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacInitialization
 <LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ValidatePayloadLength
@@ -1942,7 +1944,7 @@ Global Symbols
 <P><STRONG><a name="[c1]"></a>RegionInitDefaults</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, region.o(i.RegionInitDefaults))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = RegionInitDefaults &rArr; RegionEU868InitDefaults &rArr; RegionCommonChanMaskCopy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868InitDefaults
+<BR>[Calls]<UL><LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868InitDefaults
 </UL>
 <BR>[Called By]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacInitialization
 <LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ResetMacParameters
@@ -1956,7 +1958,7 @@ Global Symbols
 <P><STRONG><a name="[e8]"></a>RegionLinkAdrReq</STRONG> (Thumb, 34 bytes, Stack size 24 bytes, region.o(i.RegionLinkAdrReq))
 <BR><BR>[Stack]<UL><LI>Max Depth = 204<LI>Call Chain = RegionLinkAdrReq &rArr; RegionEU868LinkAdrReq &rArr; RegionCommonLinkAdrReqVerifyParams &rArr; RegionCommonChanVerifyDr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868LinkAdrReq
+<BR>[Calls]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868LinkAdrReq
 </UL>
 <BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ProcessMacCommands
 </UL>
@@ -1964,15 +1966,15 @@ Global Symbols
 <P><STRONG><a name="[ea]"></a>RegionNewChannelReq</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, region.o(i.RegionNewChannelReq))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = RegionNewChannelReq &rArr; RegionEU868NewChannelReq &rArr; RegionEU868ChannelAdd &rArr; VerifyTxFreq
 </UL>
-<BR>[Calls]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NewChannelReq
+<BR>[Calls]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NewChannelReq
 </UL>
 <BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ProcessMacCommands
 </UL>
 
-<P><STRONG><a name="[143]"></a>RegionNextChannel</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, region.o(i.RegionNextChannel))
+<P><STRONG><a name="[145]"></a>RegionNextChannel</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, region.o(i.RegionNextChannel))
 <BR><BR>[Stack]<UL><LI>Max Depth = 296<LI>Call Chain = RegionNextChannel &rArr; RegionEU868NextChannel &rArr; RegionCommonUpdateBandTimeOff &rArr; TimerGetElapsedTime &rArr; RtcComputeElapsedTime &rArr; RtcConvertTickToMs &rArr; round &rArr; __aeabi_dsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
+<BR>[Calls]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
 </UL>
 <BR>[Called By]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ScheduleTx
 </UL>
@@ -1980,7 +1982,7 @@ Global Symbols
 <P><STRONG><a name="[e2]"></a>RegionRxConfig</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, region.o(i.RegionRxConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = RegionRxConfig &rArr; RegionEU868RxConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868RxConfig
+<BR>[Calls]<UL><LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868RxConfig
 </UL>
 <BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OnRxWindow2TimerEvent
 <LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OnRxWindow1TimerEvent
@@ -1989,7 +1991,7 @@ Global Symbols
 <P><STRONG><a name="[e9]"></a>RegionRxParamSetupReq</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, region.o(i.RegionRxParamSetupReq))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = RegionRxParamSetupReq &rArr; RegionEU868RxParamSetupReq
 </UL>
-<BR>[Calls]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868RxParamSetupReq
+<BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868RxParamSetupReq
 </UL>
 <BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ProcessMacCommands
 </UL>
@@ -1997,23 +1999,23 @@ Global Symbols
 <P><STRONG><a name="[e1]"></a>RegionSetBandTxDone</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, region.o(i.RegionSetBandTxDone))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = RegionSetBandTxDone &rArr; RegionEU868SetBandTxDone
 </UL>
-<BR>[Calls]<UL><LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868SetBandTxDone
+<BR>[Calls]<UL><LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868SetBandTxDone
 </UL>
 <BR>[Called By]<UL><LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OnRadioTxDone
 </UL>
 
-<P><STRONG><a name="[145]"></a>RegionSetContinuousWave</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, region.o(i.RegionSetContinuousWave))
+<P><STRONG><a name="[147]"></a>RegionSetContinuousWave</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, region.o(i.RegionSetContinuousWave))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = RegionSetContinuousWave &rArr; RegionEU868SetContinuousWave &rArr; RegionCommonComputeTxPower &rArr; floor &rArr; __aeabi_drsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868SetContinuousWave
+<BR>[Calls]<UL><LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868SetContinuousWave
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetTxContinuousWave
 </UL>
 
-<P><STRONG><a name="[146]"></a>RegionTxConfig</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, region.o(i.RegionTxConfig))
+<P><STRONG><a name="[148]"></a>RegionTxConfig</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, region.o(i.RegionTxConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 248<LI>Call Chain = RegionTxConfig &rArr; RegionEU868TxConfig &rArr; RegionCommonComputeTxPower &rArr; floor &rArr; __aeabi_drsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868TxConfig
+<BR>[Calls]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868TxConfig
 </UL>
 <BR>[Called By]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendFrameOnChannel
 </UL>
@@ -2021,7 +2023,7 @@ Global Symbols
 <P><STRONG><a name="[eb]"></a>RegionTxParamSetupReq</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, region.o(i.RegionTxParamSetupReq))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = RegionTxParamSetupReq
 </UL>
-<BR>[Calls]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868TxParamSetupReq
+<BR>[Calls]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868TxParamSetupReq
 </UL>
 <BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ProcessMacCommands
 </UL>
@@ -2029,16 +2031,16 @@ Global Symbols
 <P><STRONG><a name="[cb]"></a>RegionVerify</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, region.o(i.RegionVerify))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = RegionVerify &rArr; RegionEU868Verify &rArr; __ARM_common_switch8
 </UL>
-<BR>[Calls]<UL><LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868Verify
+<BR>[Calls]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868Verify
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacMibSetRequestConfirm
 </UL>
 
-<P><STRONG><a name="[148]"></a>RtcComputeElapsedTime</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, rtc-board.o(i.RtcComputeElapsedTime))
+<P><STRONG><a name="[14a]"></a>RtcComputeElapsedTime</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, rtc-board.o(i.RtcComputeElapsedTime))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = RtcComputeElapsedTime &rArr; RtcConvertTickToMs &rArr; round &rArr; __aeabi_dsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertTickToMs
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertCalendarTickToTimerTime
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertCalendarTickToTimerTime
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerGetElapsedTime
 </UL>
@@ -2047,22 +2049,22 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetTimeout
 </UL>
 
-<P><STRONG><a name="[14c]"></a>RtcGetElapsedAlarmTime</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, rtc-board.o(i.RtcGetElapsedAlarmTime))
+<P><STRONG><a name="[14e]"></a>RtcGetElapsedAlarmTime</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, rtc-board.o(i.RtcGetElapsedAlarmTime))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = RtcGetElapsedAlarmTime &rArr; RtcConvertTickToMs &rArr; round &rArr; __aeabi_dsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertTickToMs
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertCalendarTickToTimerTime
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertCalendarTickToTimerTime
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerIrqHandler
 <LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerStop
 <LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerStart
 </UL>
 
-<P><STRONG><a name="[14d]"></a>RtcGetTimerValue</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, rtc-board.o(i.RtcGetTimerValue))
+<P><STRONG><a name="[14f]"></a>RtcGetTimerValue</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, rtc-board.o(i.RtcGetTimerValue))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = RtcGetTimerValue &rArr; RtcConvertTickToMs &rArr; round &rArr; __aeabi_dsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertTickToMs
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertCalendarTickToTimerTime
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertCalendarTickToTimerTime
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerGetCurrentTime
 </UL>
@@ -2073,7 +2075,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RTC_SetTime
 <LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RTC_SetDate
 <LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RTC_Init
-<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RTCEx_EnableBypassShadow
+<LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RTCEx_EnableBypassShadow
 <LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
 <LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
 </UL>
@@ -2092,15 +2094,15 @@ Global Symbols
 <LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI0_1_IRQHandler
 </UL>
 
-<P><STRONG><a name="[14f]"></a>RtcSetTimeout</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, rtc-board.o(i.RtcSetTimeout))
+<P><STRONG><a name="[151]"></a>RtcSetTimeout</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, rtc-board.o(i.RtcSetTimeout))
 <BR><BR>[Stack]<UL><LI>Max Depth = 228<LI>Call Chain = RtcSetTimeout &rArr; RtcStartWakeUpAlarm &rArr; RtcComputeTimerTimeToAlarmTick &rArr; __aeabi_uidivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2uiz
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
-<LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
 </UL>
 <BR>[Called By]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetTimeout
 </UL>
@@ -2108,24 +2110,24 @@ Global Symbols
 <P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32l0xx_it.o(i.SVC_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32l071xx.o(RESET)
 </UL>
-<P><STRONG><a name="[151]"></a>SX126xAntSwOff</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, sx1262dvk1das-board.o(i.SX126xAntSwOff))
+<P><STRONG><a name="[104]"></a>SX126xAntSwOff</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, sx1262dvk1das-board.o(i.SX126xAntSwOff))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = SX126xAntSwOff &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GpioInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSleep
+<BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRx
 </UL>
 
-<P><STRONG><a name="[152]"></a>SX126xAntSwOn</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, sx1262dvk1das-board.o(i.SX126xAntSwOn))
+<P><STRONG><a name="[106]"></a>SX126xAntSwOn</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, sx1262dvk1das-board.o(i.SX126xAntSwOn))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GpioInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
+<BR>[Called By]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSend
 </UL>
 
 <P><STRONG><a name="[153]"></a>SX126xCalibrate</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xCalibrate))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xCalibrate &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xCalibrate &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
@@ -2133,30 +2135,29 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[155]"></a>SX126xCalibrateImage</STRONG> (Thumb, 94 bytes, Stack size 8 bytes, sx126x.o(i.SX126xCalibrateImage))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xCalibrateImage &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xCalibrateImage &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
 </UL>
 
-<P><STRONG><a name="[156]"></a>SX126xCheckDeviceReady</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, sx126x.o(i.SX126xCheckDeviceReady))
-<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[156]"></a>SX126xCheckDeviceReady</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, sx126x.o(i.SX126xCheckDeviceReady))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWakeup
 <LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
-<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xAntSwOn
 </UL>
 <BR>[Called By]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 <LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
-<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
 <LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteBuffer
 <LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
 <LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadBuffer
 </UL>
 
 <P><STRONG><a name="[fc]"></a>SX126xClearIrqStatus</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sx126x.o(i.SX126xClearIrqStatus))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xClearIrqStatus &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xClearIrqStatus &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
@@ -2169,7 +2170,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[fb]"></a>SX126xGetIrqStatus</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sx126x.o(i.SX126xGetIrqStatus))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = SX126xGetIrqStatus &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = SX126xGetIrqStatus &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
 </UL>
@@ -2190,7 +2191,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[fe]"></a>SX126xGetPacketStatus</STRONG> (Thumb, 120 bytes, Stack size 16 bytes, sx126x.o(i.SX126xGetPacketStatus))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xGetPacketStatus &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xGetPacketStatus &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
 <LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
@@ -2198,12 +2199,12 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIrqProcess
 </UL>
 
-<P><STRONG><a name="[105]"></a>SX126xGetPacketType</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, sx126x.o(i.SX126xGetPacketType))
+<P><STRONG><a name="[107]"></a>SX126xGetPacketType</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, sx126x.o(i.SX126xGetPacketType))
 <BR><BR>[Called By]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSend
 </UL>
 
 <P><STRONG><a name="[fd]"></a>SX126xGetPayload</STRONG> (Thumb, 44 bytes, Stack size 24 bytes, sx126x.o(i.SX126xGetPayload))
-<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = SX126xGetPayload &rArr; SX126xGetRxBufferStatus &rArr; SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = SX126xGetPayload &rArr; SX126xGetRxBufferStatus &rArr; SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRxBufferStatus
 <LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadBuffer
@@ -2212,7 +2213,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[100]"></a>SX126xGetRssiInst</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, sx126x.o(i.SX126xGetRssiInst))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = SX126xGetRssiInst &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = SX126xGetRssiInst &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
 </UL>
@@ -2222,7 +2223,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[15b]"></a>SX126xGetRxBufferStatus</STRONG> (Thumb, 58 bytes, Stack size 16 bytes, sx126x.o(i.SX126xGetRxBufferStatus))
-<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = SX126xGetRxBufferStatus &rArr; SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = SX126xGetRxBufferStatus &rArr; SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
@@ -2231,7 +2232,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[f3]"></a>SX126xInit</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, sx126x.o(i.SX126xInit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xInit &rArr; SX126xSetDio3AsTcxoCtrl &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = SX126xInit &rArr; SX126xReset &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWakeup
 <LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReset
@@ -2262,7 +2263,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[15c]"></a>SX126xReadBuffer</STRONG> (Thumb, 86 bytes, Stack size 24 bytes, sx1262dvk1das-board.o(i.SX126xReadBuffer))
-<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = SX126xReadBuffer &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = SX126xReadBuffer &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
 <LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
@@ -2273,7 +2274,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[159]"></a>SX126xReadCommand</STRONG> (Thumb, 78 bytes, Stack size 24 bytes, sx1262dvk1das-board.o(i.SX126xReadCommand))
-<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
 <LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
@@ -2287,17 +2288,17 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[102]"></a>SX126xReadRegister</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, sx1262dvk1das-board.o(i.SX126xReadRegister))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
 </UL>
 <BR>[Called By]<UL><LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRxBufferStatus
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
 <LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRead
 </UL>
 
 <P><STRONG><a name="[103]"></a>SX126xReadRegisters</STRONG> (Thumb, 94 bytes, Stack size 24 bytes, sx1262dvk1das-board.o(i.SX126xReadRegisters))
-<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
 <LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
@@ -2317,8 +2318,8 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xInit
 </UL>
 
-<P><STRONG><a name="[107]"></a>SX126xSendPayload</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSendPayload))
-<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = SX126xSendPayload &rArr; SX126xSetTx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[109]"></a>SX126xSendPayload</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSendPayload))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = SX126xSendPayload &rArr; SX126xSetTx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[162]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPayload
 <LI><a href="#[163]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTx
@@ -2327,15 +2328,15 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[f6]"></a>SX126xSetBufferBaseAddress</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetBufferBaseAddress))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetBufferBaseAddress &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetBufferBaseAddress &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
 <BR>[Called By]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
 </UL>
 
-<P><STRONG><a name="[115]"></a>SX126xSetCad</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetCad))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetCad &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[117]"></a>SX126xSetCad</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetCad))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetCad &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
@@ -2343,23 +2344,23 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[164]"></a>SX126xSetCrcPolynomial</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetCrcPolynomial))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = SX126xSetCrcPolynomial &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = SX126xSetCrcPolynomial &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
 </UL>
-<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<BR>[Called By]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
 </UL>
 
 <P><STRONG><a name="[165]"></a>SX126xSetCrcSeed</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetCrcSeed))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = SX126xSetCrcSeed &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = SX126xSetCrcSeed &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
 </UL>
-<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<BR>[Called By]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
 </UL>
 
 <P><STRONG><a name="[160]"></a>SX126xSetDio2AsRfSwitchCtrl</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetDio2AsRfSwitchCtrl))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetDio2AsRfSwitchCtrl &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetDio2AsRfSwitchCtrl &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
@@ -2367,7 +2368,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[15f]"></a>SX126xSetDio3AsTcxoCtrl</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetDio3AsTcxoCtrl))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetDio3AsTcxoCtrl &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetDio3AsTcxoCtrl &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
@@ -2375,7 +2376,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[f8]"></a>SX126xSetDioIrqParams</STRONG> (Thumb, 40 bytes, Stack size 24 bytes, sx126x.o(i.SX126xSetDioIrqParams))
-<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetDioIrqParams &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = SX126xSetDioIrqParams &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
@@ -2385,43 +2386,43 @@ Global Symbols
 <LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
 </UL>
 
-<P><STRONG><a name="[10b]"></a>SX126xSetLoRaSymbNumTimeout</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetLoRaSymbNumTimeout))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetLoRaSymbNumTimeout &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[10d]"></a>SX126xSetLoRaSymbNumTimeout</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetLoRaSymbNumTimeout))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetLoRaSymbNumTimeout &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
 </UL>
 
-<P><STRONG><a name="[10d]"></a>SX126xSetModulationParams</STRONG> (Thumb, 148 bytes, Stack size 24 bytes, sx126x.o(i.SX126xSetModulationParams))
-<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SX126xSetModulationParams &rArr; SX126xSetPacketType &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[10f]"></a>SX126xSetModulationParams</STRONG> (Thumb, 148 bytes, Stack size 24 bytes, sx126x.o(i.SX126xSetModulationParams))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = SX126xSetModulationParams &rArr; SX126xSetPacketType &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 <LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2uiz
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
 </UL>
 <BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
 <LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
 </UL>
 
 <P><STRONG><a name="[166]"></a>SX126xSetPaConfig</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetPaConfig))
-<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = SX126xSetPaConfig &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = SX126xSetPaConfig &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
 </UL>
 
-<P><STRONG><a name="[106]"></a>SX126xSetPacketParams</STRONG> (Thumb, 158 bytes, Stack size 24 bytes, sx126x.o(i.SX126xSetPacketParams))
-<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SX126xSetPacketParams &rArr; SX126xSetPacketType &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[108]"></a>SX126xSetPacketParams</STRONG> (Thumb, 158 bytes, Stack size 24 bytes, sx126x.o(i.SX126xSetPacketParams))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = SX126xSetPacketParams &rArr; SX126xSetPacketType &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 <LI><a href="#[165]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCrcSeed
 <LI><a href="#[164]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCrcPolynomial
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
 </UL>
 <BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
 <LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
@@ -2429,26 +2430,26 @@ Global Symbols
 <LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSend
 </UL>
 
-<P><STRONG><a name="[108]"></a>SX126xSetPacketType</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetPacketType))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetPacketType &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[10a]"></a>SX126xSetPacketType</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetPacketType))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetPacketType &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
-<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<BR>[Called By]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
 <LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
 </UL>
 
 <P><STRONG><a name="[162]"></a>SX126xSetPayload</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetPayload))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = SX126xSetPayload &rArr; SX126xWriteBuffer &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = SX126xSetPayload &rArr; SX126xWriteBuffer &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteBuffer
 </UL>
-<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSendPayload
+<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSendPayload
 </UL>
 
 <P><STRONG><a name="[f5]"></a>SX126xSetRegulatorMode</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetRegulatorMode))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetRegulatorMode &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetRegulatorMode &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
@@ -2456,7 +2457,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[ff]"></a>SX126xSetRfFrequency</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetRfFrequency))
-<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetRfFrequency &rArr; SX126xCalibrateImage &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = SX126xSetRfFrequency &rArr; SX126xCalibrateImage &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 <LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCalibrateImage
@@ -2469,8 +2470,8 @@ Global Symbols
 <LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIsChannelFree
 </UL>
 
-<P><STRONG><a name="[112]"></a>SX126xSetRfTxPower</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, sx1262dvk1das-board.o(i.SX126xSetRfTxPower))
-<BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = SX126xSetRfTxPower &rArr; SX126xSetTxParams &rArr; SX126xSetPaConfig &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[114]"></a>SX126xSetRfTxPower</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, sx1262dvk1das-board.o(i.SX126xSetRfTxPower))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = SX126xSetRfTxPower &rArr; SX126xSetTxParams &rArr; SX126xSetPaConfig &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
 </UL>
@@ -2479,7 +2480,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[101]"></a>SX126xSetRx</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetRx))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetRx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetRx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
@@ -2487,34 +2488,33 @@ Global Symbols
 <LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRandom
 </UL>
 
-<P><STRONG><a name="[104]"></a>SX126xSetRxBoosted</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetRxBoosted))
-<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetRxBoosted &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[105]"></a>SX126xSetRxBoosted</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetRxBoosted))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = SX126xSetRxBoosted &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
 </UL>
 <BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRxBoosted
 </UL>
 
-<P><STRONG><a name="[111]"></a>SX126xSetRxDutyCycle</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetRxDutyCycle))
-<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = SX126xSetRxDutyCycle &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[113]"></a>SX126xSetRxDutyCycle</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetRxDutyCycle))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = SX126xSetRxDutyCycle &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
 <BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxDutyCycle
 </UL>
 
-<P><STRONG><a name="[114]"></a>SX126xSetSleep</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetSleep))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetSleep &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[116]"></a>SX126xSetSleep</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetSleep))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetSleep &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
-<LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xAntSwOff
 </UL>
 <BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSleep
 </UL>
 
 <P><STRONG><a name="[f4]"></a>SX126xSetStandby</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetStandby))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetStandby &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetStandby &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
@@ -2525,33 +2525,33 @@ Global Symbols
 <LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
 </UL>
 
-<P><STRONG><a name="[10a]"></a>SX126xSetStopRxTimerOnPreambleDetect</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetStopRxTimerOnPreambleDetect))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetStopRxTimerOnPreambleDetect &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[10c]"></a>SX126xSetStopRxTimerOnPreambleDetect</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetStopRxTimerOnPreambleDetect))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetStopRxTimerOnPreambleDetect &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
 </UL>
 
-<P><STRONG><a name="[10e]"></a>SX126xSetSyncWord</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetSyncWord))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = SX126xSetSyncWord &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[110]"></a>SX126xSetSyncWord</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetSyncWord))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = SX126xSetSyncWord &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
 </UL>
 <BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
 <LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
 </UL>
 
 <P><STRONG><a name="[163]"></a>SX126xSetTx</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetTx))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetTx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetTx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
-<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSendPayload
+<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSendPayload
 </UL>
 
-<P><STRONG><a name="[113]"></a>SX126xSetTxContinuousWave</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetTxContinuousWave))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xSetTxContinuousWave &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[115]"></a>SX126xSetTxContinuousWave</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetTxContinuousWave))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xSetTxContinuousWave &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 </UL>
@@ -2559,21 +2559,21 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[f7]"></a>SX126xSetTxParams</STRONG> (Thumb, 122 bytes, Stack size 24 bytes, sx126x.o(i.SX126xSetTxParams))
-<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = SX126xSetTxParams &rArr; SX126xSetPaConfig &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = SX126xSetTxParams &rArr; SX126xSetPaConfig &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 <LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetPaSelect
 <LI><a href="#[166]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPaConfig
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
 </UL>
-<BR>[Called By]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfTxPower
+<BR>[Called By]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfTxPower
 <LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
 </UL>
 
-<P><STRONG><a name="[10f]"></a>SX126xSetWhiteningSeed</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetWhiteningSeed))
-<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetWhiteningSeed &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[111]"></a>SX126xSetWhiteningSeed</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetWhiteningSeed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = SX126xSetWhiteningSeed &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
 </UL>
 <BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
@@ -2589,7 +2589,7 @@ Global Symbols
 <LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWakeup
 <LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
 <LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
-<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
 <LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteBuffer
 <LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
 <LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadBuffer
@@ -2609,7 +2609,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[167]"></a>SX126xWriteBuffer</STRONG> (Thumb, 76 bytes, Stack size 24 bytes, sx1262dvk1das-board.o(i.SX126xWriteBuffer))
-<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = SX126xWriteBuffer &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = SX126xWriteBuffer &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
 <LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
@@ -2620,7 +2620,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[154]"></a>SX126xWriteCommand</STRONG> (Thumb, 72 bytes, Stack size 32 bytes, sx1262dvk1das-board.o(i.SX126xWriteCommand))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
 <LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
@@ -2633,40 +2633,40 @@ Global Symbols
 <LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCalibrateImage
 <LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCalibrate
 <LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
-<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxContinuousWave
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxContinuousWave
 <LI><a href="#[163]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTx
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStopRxTimerOnPreambleDetect
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStopRxTimerOnPreambleDetect
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
-<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSleep
-<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxDutyCycle
-<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxBoosted
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSleep
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxDutyCycle
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxBoosted
 <LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRx
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
 <LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRegulatorMode
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetLoRaSymbNumTimeout
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetLoRaSymbNumTimeout
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDioIrqParams
-<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCad
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCad
 <LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetBufferBaseAddress
 <LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xClearIrqStatus
 </UL>
 
-<P><STRONG><a name="[109]"></a>SX126xWriteRegister</STRONG> (Thumb, 12 bytes, Stack size 16 bytes, sx1262dvk1das-board.o(i.SX126xWriteRegister))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[10b]"></a>SX126xWriteRegister</STRONG> (Thumb, 12 bytes, Stack size 16 bytes, sx1262dvk1das-board.o(i.SX126xWriteRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
+<BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
 <LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
-<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxBoosted
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxBoosted
 <LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioWrite
 <LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetPublicNetwork
 </UL>
 
-<P><STRONG><a name="[11a]"></a>SX126xWriteRegisters</STRONG> (Thumb, 84 bytes, Stack size 24 bytes, sx1262dvk1das-board.o(i.SX126xWriteRegisters))
-<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xAntSwOn &rArr; GpioInit &rArr; GpioMcuInit &rArr; HAL_GPIO_Init
+<P><STRONG><a name="[11c]"></a>SX126xWriteRegisters</STRONG> (Thumb, 84 bytes, Stack size 24 bytes, sx1262dvk1das-board.o(i.SX126xWriteRegisters))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xWaitOnBusy &rArr; GpioRead &rArr; GpioMcuRead
 </UL>
 <BR>[Calls]<UL><LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
 <LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
@@ -2675,8 +2675,8 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[165]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCrcSeed
 <LI><a href="#[164]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCrcPolynomial
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSyncWord
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSyncWord
 <LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioWriteBuffer
 </UL>
 
@@ -2694,7 +2694,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerStart
 <LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetValue
-<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionTxConfig
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionTxConfig
 </UL>
 <BR>[Called By]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ScheduleTx
 </UL>
@@ -2704,7 +2704,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerStart
 <LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetValue
-<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionSetContinuousWave
+<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionSetContinuousWave
 </UL>
 <BR>[Called By]<UL><LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacMlmeRequest
 </UL>
@@ -2737,7 +2737,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
 <LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWakeup
 <LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
-<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
 <LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteBuffer
 <LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
 <LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadBuffer
@@ -2780,7 +2780,7 @@ Global Symbols
 <P><STRONG><a name="[c5]"></a>TimerGetCurrentTime</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, timer.o(i.TimerGetCurrentTime))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = TimerGetCurrentTime &rArr; RtcGetTimerValue &rArr; RtcConvertTickToMs &rArr; round &rArr; __aeabi_dsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetTimerValue
+<BR>[Calls]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetTimerValue
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIsChannelFree
 <LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacInitialization
@@ -2790,11 +2790,11 @@ Global Symbols
 <P><STRONG><a name="[e0]"></a>TimerGetElapsedTime</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, timer.o(i.TimerGetElapsedTime))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = TimerGetElapsedTime &rArr; RtcComputeElapsedTime &rArr; RtcConvertTickToMs &rArr; round &rArr; __aeabi_dsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeElapsedTime
+<BR>[Calls]<UL><LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeElapsedTime
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIsChannelFree
-<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonUpdateBandTimeOff
-<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
+<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonUpdateBandTimeOff
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ScheduleTx
 <LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OnRadioRxTimeout
 <LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OnRadioRxError
@@ -2809,7 +2809,7 @@ Global Symbols
 <P><STRONG><a name="[f0]"></a>TimerIrqHandler</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, timer.o(i.TimerIrqHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 244<LI>Call Chain = TimerIrqHandler &rArr; TimerSetTimeout &rArr; RtcSetTimeout &rArr; RtcStartWakeUpAlarm &rArr; RtcComputeTimerTimeToAlarmTick &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetElapsedAlarmTime
+<BR>[Calls]<UL><LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetElapsedAlarmTime
 <LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetTimeout
 </UL>
 <BR>[Called By]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTC_IRQHandler
@@ -2839,7 +2839,7 @@ Global Symbols
 <P><STRONG><a name="[db]"></a>TimerStart</STRONG> (Thumb, 92 bytes, Stack size 16 bytes, timer.o(i.TimerStart))
 <BR><BR>[Stack]<UL><LI>Max Depth = 260<LI>Call Chain = TimerStart &rArr; TimerInsertNewHeadTimer &rArr; TimerSetTimeout &rArr; RtcSetTimeout &rArr; RtcStartWakeUpAlarm &rArr; RtcComputeTimerTimeToAlarmTick &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetElapsedAlarmTime
+<BR>[Calls]<UL><LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetElapsedAlarmTime
 <LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerInsertTimer
 <LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerInsertNewHeadTimer
 <LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BoardEnableIrq
@@ -2864,7 +2864,7 @@ Global Symbols
 <P><STRONG><a name="[da]"></a>TimerStop</STRONG> (Thumb, 140 bytes, Stack size 16 bytes, timer.o(i.TimerStop))
 <BR><BR>[Stack]<UL><LI>Max Depth = 252<LI>Call Chain = TimerStop &rArr; TimerSetTimeout &rArr; RtcSetTimeout &rArr; RtcStartWakeUpAlarm &rArr; RtcComputeTimerTimeToAlarmTick &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetElapsedAlarmTime
+<BR>[Calls]<UL><LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetElapsedAlarmTime
 <LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetTimeout
 <LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BoardEnableIrq
 <LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BoardDisableIrq
@@ -2939,8 +2939,8 @@ Global Symbols
 <P><STRONG><a name="[7c]"></a>__ARM_common_switch8</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, loramac.o(i.__ARM_common_switch8))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __ARM_common_switch8
 </UL>
-<BR>[Called By]<UL><LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868Verify
-<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868GetPhyParam
+<BR>[Called By]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868Verify
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868GetPhyParam
 <LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacMibSetRequestConfirm
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ProcessMacCommands
 <LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ParseMacCommandsToRepeat
@@ -2980,26 +2980,26 @@ Global Symbols
 <LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AES_CMAC_SetKey
 </UL>
 
-<P><STRONG><a name="[116]"></a>ceil</STRONG> (Thumb, 180 bytes, Stack size 24 bytes, ceil.o(i.ceil))
+<P><STRONG><a name="[118]"></a>ceil</STRONG> (Thumb, 180 bytes, Stack size 24 bytes, ceil.o(i.ceil))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = ceil &rArr; __aeabi_drsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
 <LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
 </UL>
 <BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
-<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeRxWindowParameters
 </UL>
 
-<P><STRONG><a name="[119]"></a>floor</STRONG> (Thumb, 180 bytes, Stack size 24 bytes, floor.o(i.floor))
+<P><STRONG><a name="[11b]"></a>floor</STRONG> (Thumb, 180 bytes, Stack size 24 bytes, floor.o(i.floor))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = floor &rArr; __aeabi_drsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
 <LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
 </UL>
 <BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
-<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonComputeTxPower
 </UL>
 
 <P><STRONG><a name="[32]"></a>fputc</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, usart.o(i.fputc))
@@ -3029,7 +3029,7 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
 </UL>
 <P><STRONG><a name="[76]"></a>memcpy1</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, utilities.o(i.memcpy1))
-<BR><BR>[Called By]<UL><LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelAdd
+<BR><BR>[Called By]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelAdd
 <LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacJoinComputeSKeys
 <LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PrepareFrame
 <LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacMibSetRequestConfirm
@@ -3043,7 +3043,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[74]"></a>memset1</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, utilities.o(i.memset1))
-<BR><BR>[Called By]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868LinkAdrReq
+<BR><BR>[Called By]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868LinkAdrReq
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacPayloadEncrypt
 <LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacJoinDecrypt
 <LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LoRaMacJoinComputeSKeys
@@ -3057,20 +3057,20 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 </UL>
-<BR>[Called By]<UL><LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;randr
+<BR>[Called By]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;randr
 </UL>
 
-<P><STRONG><a name="[136]"></a>randr</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, utilities.o(i.randr))
+<P><STRONG><a name="[138]"></a>randr</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, utilities.o(i.randr))
 <BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = randr &rArr; __aeabi_idivmod &rArr; __aeabi_uidivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[17b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rand1
 <LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
-<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868GetPhyParam
+<BR>[Called By]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868GetPhyParam
 </UL>
 
-<P><STRONG><a name="[118]"></a>rint</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, rint.o(i.rint))
+<P><STRONG><a name="[11a]"></a>rint</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, rint.o(i.rint))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = rint &rArr; _drnd &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_drnd
@@ -3078,16 +3078,16 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
 </UL>
 
-<P><STRONG><a name="[14b]"></a>round</STRONG> (Thumb, 142 bytes, Stack size 32 bytes, round.o(i.round))
+<P><STRONG><a name="[14d]"></a>round</STRONG> (Thumb, 142 bytes, Stack size 32 bytes, round.o(i.round))
 <BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = round &rArr; __aeabi_dsub &rArr; __aeabi_dadd &rArr; _double_epilogue &rArr; __aeabi_llsr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
 <LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
 <LI><a href="#[17c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdcmple
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_drnd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
+<BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
 <LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertTickToMs
 </UL>
 
@@ -3098,7 +3098,7 @@ Global Symbols
 <H3>
 Local Symbols
 </H3>
-<P><STRONG><a name="[10c]"></a>RadioGetFskBandwidthRegValue</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, radio.o(i.RadioGetFskBandwidthRegValue))
+<P><STRONG><a name="[10e]"></a>RadioGetFskBandwidthRegValue</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, radio.o(i.RadioGetFskBandwidthRegValue))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = RadioGetFskBandwidthRegValue
 </UL>
 <BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
@@ -3122,7 +3122,7 @@ Local Symbols
 <P><STRONG><a name="[16f]"></a>TimerSetTimeout</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, timer.o(i.TimerSetTimeout))
 <BR><BR>[Stack]<UL><LI>Max Depth = 236<LI>Call Chain = TimerSetTimeout &rArr; RtcSetTimeout &rArr; RtcStartWakeUpAlarm &rArr; RtcComputeTimerTimeToAlarmTick &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
+<BR>[Calls]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
 <LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetAdjustedTimeoutValue
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerIrqHandler
@@ -3343,10 +3343,10 @@ Local Symbols
 <BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerStart
 <LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerSetValue
 <LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimerGetElapsedTime
-<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionNextChannel
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionNextChannel
 <LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionComputeRxWindowParameters
-<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCalcBackOff
-<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionApplyDrOffset
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCalcBackOff
+<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionApplyDrOffset
 <LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendFrameOnChannel
 <LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ValidatePayloadLength
 </UL>
@@ -3373,39 +3373,39 @@ Local Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionCommonValueInRange
 </UL>
-<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
+<BR>[Called By]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868NextChannel
 </UL>
 
-<P><STRONG><a name="[135]"></a>GetBandwidth</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, regioneu868.o(i.GetBandwidth))
-<BR><BR>[Called By]<UL><LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868TxConfig
-<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ComputeRxWindowParameters
+<P><STRONG><a name="[137]"></a>GetBandwidth</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, regioneu868.o(i.GetBandwidth))
+<BR><BR>[Called By]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868TxConfig
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ComputeRxWindowParameters
 </UL>
 
-<P><STRONG><a name="[133]"></a>VerifyTxFreq</STRONG> (Thumb, 104 bytes, Stack size 16 bytes, regioneu868.o(i.VerifyTxFreq))
+<P><STRONG><a name="[135]"></a>VerifyTxFreq</STRONG> (Thumb, 104 bytes, Stack size 16 bytes, regioneu868.o(i.VerifyTxFreq))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = VerifyTxFreq
 </UL>
-<BR>[Called By]<UL><LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868DlChannelReq
-<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelAdd
+<BR>[Called By]<UL><LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868DlChannelReq
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RegionEU868ChannelAdd
 </UL>
 
-<P><STRONG><a name="[14a]"></a>RtcComputeTimerTimeToAlarmTick</STRONG> (Thumb, 228 bytes, Stack size 64 bytes, rtc-board.o(i.RtcComputeTimerTimeToAlarmTick))
+<P><STRONG><a name="[14c]"></a>RtcComputeTimerTimeToAlarmTick</STRONG> (Thumb, 228 bytes, Stack size 64 bytes, rtc-board.o(i.RtcComputeTimerTimeToAlarmTick))
 <BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = RtcComputeTimerTimeToAlarmTick &rArr; __aeabi_uidivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
 <LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 </UL>
-<BR>[Called By]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
+<BR>[Called By]<UL><LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
 </UL>
 
-<P><STRONG><a name="[149]"></a>RtcConvertCalendarTickToTimerTime</STRONG> (Thumb, 184 bytes, Stack size 64 bytes, rtc-board.o(i.RtcConvertCalendarTickToTimerTime))
+<P><STRONG><a name="[14b]"></a>RtcConvertCalendarTickToTimerTime</STRONG> (Thumb, 184 bytes, Stack size 64 bytes, rtc-board.o(i.RtcConvertCalendarTickToTimerTime))
 <BR><BR>[Stack]<UL><LI>Max Depth = 124<LI>Call Chain = RtcConvertCalendarTickToTimerTime &rArr; RtcGetCalendar &rArr; HAL_RTC_GetTime
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetCalendar
 <LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetTimerValue
-<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetElapsedAlarmTime
-<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeElapsedTime
+<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetTimerValue
+<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetElapsedAlarmTime
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeElapsedTime
 </UL>
 
 <P><STRONG><a name="[ef]"></a>RtcConvertTickToMs</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, rtc-board.o(i.RtcConvertTickToMs))
@@ -3414,12 +3414,12 @@ Local Symbols
 <BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
 <LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2uiz
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
-<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;round
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetTimerValue
-<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetElapsedAlarmTime
-<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeElapsedTime
+<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetTimerValue
+<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetElapsedAlarmTime
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeElapsedTime
 <LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTC_IRQHandler
 </UL>
 
@@ -3431,20 +3431,20 @@ Local Symbols
 <LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RTC_IRQHandler
-<LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
-<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertCalendarTickToTimerTime
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcStartWakeUpAlarm
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcConvertCalendarTickToTimerTime
 </UL>
 
-<P><STRONG><a name="[150]"></a>RtcStartWakeUpAlarm</STRONG> (Thumb, 152 bytes, Stack size 144 bytes, rtc-board.o(i.RtcStartWakeUpAlarm))
+<P><STRONG><a name="[152]"></a>RtcStartWakeUpAlarm</STRONG> (Thumb, 152 bytes, Stack size 144 bytes, rtc-board.o(i.RtcStartWakeUpAlarm))
 <BR><BR>[Stack]<UL><LI>Max Depth = 220<LI>Call Chain = RtcStartWakeUpAlarm &rArr; RtcComputeTimerTimeToAlarmTick &rArr; __aeabi_uidivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RTC_SetAlarm_IT
 <LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RTC_DeactivateAlarm
 <LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcGetCalendar
-<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeTimerTimeToAlarmTick
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcComputeTimerTimeToAlarmTick
 <LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
+<BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RtcSetTimeout
 </UL>
 
 <P><STRONG><a name="[33]"></a>McpsConfirm</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, main.o(i.McpsConfirm))

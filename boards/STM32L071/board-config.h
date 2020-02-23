@@ -56,7 +56,7 @@
 #define RADIO_NSS                                   PA_4
 #define RADIO_BUSY                                  PB_0
 #define RADIO_DIO_1                                 PB_1
-
+#define RADIO_DIO_2																	PB_5
 #define RADIO_ANT_SWITCH_POWER                      PA_11
 //#define RADIO_FREQ_SEL                              PA_1
 //#define RADIO_XTAL_SEL                              PB_0
