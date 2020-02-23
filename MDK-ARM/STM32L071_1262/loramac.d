@@ -1,0 +1,11 @@
+stm32l071_1262\loramac.o: ..\mac\LoRaMac.c
+stm32l071_1262\loramac.o: ..\boards\utilities.h
+stm32l071_1262\loramac.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32l071_1262\loramac.o: ..\mac\LoRaMac.h
+stm32l071_1262\loramac.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+stm32l071_1262\loramac.o: ..\system\timer.h
+stm32l071_1262\loramac.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32l071_1262\loramac.o: ..\radio\radio.h
+stm32l071_1262\loramac.o: ..\mac\region/Region.h
+stm32l071_1262\loramac.o: ..\mac\LoRaMacCrypto.h
+stm32l071_1262\loramac.o: ..\mac\LoRaMacTest.h

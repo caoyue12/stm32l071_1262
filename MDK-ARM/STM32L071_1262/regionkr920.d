@@ -1,0 +1,11 @@
+stm32l071_1262\regionkr920.o: ..\mac\region\RegionKR920.c
+stm32l071_1262\regionkr920.o: ..\boards\utilities.h
+stm32l071_1262\regionkr920.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32l071_1262\regionkr920.o: ..\mac\region\RegionCommon.h
+stm32l071_1262\regionkr920.o: ..\mac\LoRaMac.h
+stm32l071_1262\regionkr920.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+stm32l071_1262\regionkr920.o: ..\system\timer.h
+stm32l071_1262\regionkr920.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32l071_1262\regionkr920.o: ..\radio\radio.h
+stm32l071_1262\regionkr920.o: ..\mac\region/Region.h
+stm32l071_1262\regionkr920.o: ..\mac\region\RegionKR920.h

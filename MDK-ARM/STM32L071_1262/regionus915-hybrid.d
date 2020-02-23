@@ -1,0 +1,11 @@
+stm32l071_1262\regionus915-hybrid.o: ..\mac\region\RegionUS915-Hybrid.c
+stm32l071_1262\regionus915-hybrid.o: ..\boards\utilities.h
+stm32l071_1262\regionus915-hybrid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32l071_1262\regionus915-hybrid.o: ..\mac\region\RegionCommon.h
+stm32l071_1262\regionus915-hybrid.o: ..\mac\LoRaMac.h
+stm32l071_1262\regionus915-hybrid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+stm32l071_1262\regionus915-hybrid.o: ..\system\timer.h
+stm32l071_1262\regionus915-hybrid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32l071_1262\regionus915-hybrid.o: ..\radio\radio.h
+stm32l071_1262\regionus915-hybrid.o: ..\mac\region/Region.h
+stm32l071_1262\regionus915-hybrid.o: ..\mac\region\RegionUS915-Hybrid.h

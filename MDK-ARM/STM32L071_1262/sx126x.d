@@ -1,0 +1,16 @@
+stm32l071_1262\sx126x.o: ..\radio\sx126x\sx126x.c
+stm32l071_1262\sx126x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+stm32l071_1262\sx126x.o: ..\boards\utilities.h
+stm32l071_1262\sx126x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32l071_1262\sx126x.o: ..\system\timer.h
+stm32l071_1262\sx126x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32l071_1262\sx126x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+stm32l071_1262\sx126x.o: ..\radio\radio.h
+stm32l071_1262\sx126x.o: ..\system\delay.h
+stm32l071_1262\sx126x.o: ..\radio\sx126x\sx126x.h
+stm32l071_1262\sx126x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+stm32l071_1262\sx126x.o: ..\system\gpio.h
+stm32l071_1262\sx126x.o: ..\boards\pinName-board.h
+stm32l071_1262\sx126x.o: ..\boards\pinName-ioe.h
+stm32l071_1262\sx126x.o: ..\system\spi.h
+stm32l071_1262\sx126x.o: ..\boards\sx126x-board.h

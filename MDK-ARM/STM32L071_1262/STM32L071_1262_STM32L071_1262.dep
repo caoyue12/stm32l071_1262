@@ -1,0 +1,1924 @@
+Dependencies for Project 'STM32L071_1262', Target 'STM32L071_1262': (DO NOT MODIFY !)
+F (startup_stm32l071xx.s)(0x5E4FAE42)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include--pd "__UVISION_VERSION SETA 522" --pd "_RTE_ SETA 1" --pd "STM32L071xx SETA 1"--list startup_stm32l071xx.lst --xref -o stm32l071_1262\startup_stm32l071xx.o --depend stm32l071_1262\startup_stm32l071xx.d)
+F (..\radio\sx126x\radio.c)(0x5E5207E7)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\radio.o --omf_browse stm32l071_1262\radio.crf --depend stm32l071_1262\radio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\system\delay.h)(0x5E4BD567)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\radio\sx126x\sx126x.h)(0x5E4BD567)
+I (..\system\gpio.h)(0x5E4BD567)
+I (..\boards\pinName-board.h)(0x5E4BD567)
+I (..\boards\pinName-ioe.h)(0x5E4BD567)
+I (..\system\spi.h)(0x5E4BD567)
+I (..\boards\sx126x-board.h)(0x5E4BD567)
+I (..\boards\board.h)(0x5E4BD566)
+F (..\radio\sx126x\sx126x.c)(0x5E52075C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\sx126x.o --omf_browse stm32l071_1262\sx126x.crf --depend stm32l071_1262\sx126x.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\system\delay.h)(0x5E4BD567)
+I (..\radio\sx126x\sx126x.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\system\gpio.h)(0x5E4BD567)
+I (..\boards\pinName-board.h)(0x5E4BD567)
+I (..\boards\pinName-ioe.h)(0x5E4BD567)
+I (..\system\spi.h)(0x5E4BD567)
+I (..\boards\sx126x-board.h)(0x5E4BD567)
+F (..\system\delay.c)(0x5E3BCDFA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\delay.o --omf_browse stm32l071_1262\delay.crf --depend stm32l071_1262\delay.d)
+I (..\boards\delay-board.h)(0x5E4BD566)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\system\delay.h)(0x5E4BD567)
+F (..\system\timer.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\timer.o --omf_browse stm32l071_1262\timer.crf --depend stm32l071_1262\timer.d)
+I (..\boards\board.h)(0x5E4BD566)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\boards\rtc-board.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+F (..\system\crypto\aes.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\aes.o --omf_browse stm32l071_1262\aes.crf --depend stm32l071_1262\aes.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\system\crypto\aes.h)(0x5E4BD567)
+F (..\system\crypto\cmac.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\cmac.o --omf_browse stm32l071_1262\cmac.crf --depend stm32l071_1262\cmac.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\system\crypto\aes.h)(0x5E4BD567)
+I (..\system\crypto\cmac.h)(0x5E4BD567)
+I (..\boards\utilities.h)(0x5E4BD567)
+F (..\system\gpio.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\gpio.o --omf_browse stm32l071_1262\gpio.crf --depend stm32l071_1262\gpio.d)
+I (..\boards\gpio-board.h)(0x5E4BD566)
+I (..\system\gpio.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\boards\pinName-board.h)(0x5E4BD567)
+I (..\boards\pinName-ioe.h)(0x5E4BD567)
+F (..\mac\LoRaMac.c)(0x5E5207E7)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\loramac.o --omf_browse stm32l071_1262\loramac.crf --depend stm32l071_1262\loramac.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\LoRaMacCrypto.h)(0x5E4BD567)
+I (..\mac\LoRaMacTest.h)(0x5E4BD567)
+F (..\mac\LoRaMacCrypto.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\loramaccrypto.o --omf_browse stm32l071_1262\loramaccrypto.crf --depend stm32l071_1262\loramaccrypto.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\system\crypto\aes.h)(0x5E4BD567)
+I (..\system\crypto\cmac.h)(0x5E4BD567)
+I (..\mac\LoRaMacCrypto.h)(0x5E4BD567)
+F (..\mac\region\Region.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\region.o --omf_browse stm32l071_1262\region.crf --depend stm32l071_1262\region.d)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\region\RegionEU868.h)(0x5E4BD567)
+F (..\mac\region\RegionAS923.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\regionas923.o --omf_browse stm32l071_1262\regionas923.crf --depend stm32l071_1262\regionas923.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\region\RegionCommon.h)(0x5E4BD567)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\region\RegionAS923.h)(0x5E4BD567)
+F (..\mac\region\RegionAU915.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\regionau915.o --omf_browse stm32l071_1262\regionau915.crf --depend stm32l071_1262\regionau915.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\region\RegionCommon.h)(0x5E4BD567)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\region\RegionAU915.h)(0x5E4BD567)
+F (..\mac\region\RegionCN470.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\regioncn470.o --omf_browse stm32l071_1262\regioncn470.crf --depend stm32l071_1262\regioncn470.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\region\RegionCommon.h)(0x5E4BD567)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\region\RegionCN470.h)(0x5E4BD567)
+F (..\mac\region\RegionCN779.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\regioncn779.o --omf_browse stm32l071_1262\regioncn779.crf --depend stm32l071_1262\regioncn779.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\region\RegionCommon.h)(0x5E4BD567)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\region\RegionCN779.h)(0x5E4BD567)
+F (..\mac\region\RegionCommon.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\regioncommon.o --omf_browse stm32l071_1262\regioncommon.crf --depend stm32l071_1262\regioncommon.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\region\RegionCommon.h)(0x5E4BD567)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+F (..\mac\region\RegionEU433.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\regioneu433.o --omf_browse stm32l071_1262\regioneu433.crf --depend stm32l071_1262\regioneu433.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\region\RegionCommon.h)(0x5E4BD567)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\region\RegionEU433.h)(0x5E4BD567)
+F (..\mac\region\RegionEU868.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\regioneu868.o --omf_browse stm32l071_1262\regioneu868.crf --depend stm32l071_1262\regioneu868.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\region\RegionCommon.h)(0x5E4BD567)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\region\RegionEU868.h)(0x5E4BD567)
+F (..\mac\region\RegionIN865.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\regionin865.o --omf_browse stm32l071_1262\regionin865.crf --depend stm32l071_1262\regionin865.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\region\RegionCommon.h)(0x5E4BD567)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\region\RegionIN865.h)(0x5E4BD567)
+F (..\mac\region\RegionKR920.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\regionkr920.o --omf_browse stm32l071_1262\regionkr920.crf --depend stm32l071_1262\regionkr920.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\region\RegionCommon.h)(0x5E4BD567)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\region\RegionKR920.h)(0x5E4BD567)
+F (..\mac\region\RegionUS915.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\regionus915.o --omf_browse stm32l071_1262\regionus915.crf --depend stm32l071_1262\regionus915.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\region\RegionCommon.h)(0x5E4BD567)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\region\RegionUS915.h)(0x5E4BD567)
+F (..\mac\region\RegionUS915-Hybrid.c)(0x5E4BD567)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\regionus915-hybrid.o --omf_browse stm32l071_1262\regionus915-hybrid.crf --depend stm32l071_1262\regionus915-hybrid.d)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\mac\region\RegionCommon.h)(0x5E4BD567)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (..\mac\region\RegionUS915-Hybrid.h)(0x5E4BD567)
+F (..\boards\STM32L071\delay-board.c)(0x5E3BCDF9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\delay-board.o --omf_browse stm32l071_1262\delay-board.crf --depend stm32l071_1262\delay-board.d)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+I (..\boards\delay-board.h)(0x5E4BD566)
+F (..\boards\STM32L071\board.c)(0x5E522E82)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\board.o --omf_browse stm32l071_1262\board.crf --depend stm32l071_1262\board.d)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (..\system\gpio.h)(0x5E4BD567)
+I (..\boards\pinName-board.h)(0x5E4BD567)
+I (..\boards\pinName-ioe.h)(0x5E4BD567)
+I (..\system\spi.h)(0x5E4BD567)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\boards\STM32L071\board-config.h)(0x5E4FBD98)
+I (..\boards\rtc-board.h)(0x5E4BD567)
+I (..\boards\sx126x-board.h)(0x5E4BD567)
+I (..\radio\sx126x/sx126x.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\boards\board.h)(0x5E4BD566)
+F (..\boards\STM32L071\gpio-board.c)(0x5E4BD566)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\gpio-board.o --omf_browse stm32l071_1262\gpio-board.crf --depend stm32l071_1262\gpio-board.d)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (..\boards\STM32L071\board-config.h)(0x5E4FBD98)
+I (..\boards\rtc-board.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\boards\gpio-board.h)(0x5E4BD566)
+I (..\system\gpio.h)(0x5E4BD567)
+I (..\boards\pinName-board.h)(0x5E4BD567)
+I (..\boards\pinName-ioe.h)(0x5E4BD567)
+F (..\boards\STM32L071\rtc-board.c)(0x5E4BD566)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\rtc-board.o --omf_browse stm32l071_1262\rtc-board.crf --depend stm32l071_1262\rtc-board.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (..\boards\board.h)(0x5E4BD566)
+I (..\system\timer.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\gpio.h)(0x5E4BD567)
+I (..\boards\pinName-board.h)(0x5E4BD567)
+I (..\boards\pinName-ioe.h)(0x5E4BD567)
+I (..\boards\rtc-board.h)(0x5E4BD567)
+F (..\boards\STM32L071\spi-board.c)(0x5E5139A9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\spi-board.o --omf_browse stm32l071_1262\spi-board.crf --depend stm32l071_1262\spi-board.d)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (..\boards\board.h)(0x5E4BD566)
+I (..\system\gpio.h)(0x5E4BD567)
+I (..\boards\pinName-board.h)(0x5E4BD567)
+I (..\boards\pinName-ioe.h)(0x5E4BD567)
+I (..\boards\spi-board.h)(0x5E4BD567)
+I (..\system\spi.h)(0x5E4BD567)
+F (..\boards\STM32L071\sx1262dvk1das-board.c)(0x5E5207E7)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\sx1262dvk1das-board.o --omf_browse stm32l071_1262\sx1262dvk1das-board.crf --depend stm32l071_1262\sx1262dvk1das-board.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\boards\STM32L071\board-config.h)(0x5E4FBD98)
+I (..\boards\board.h)(0x5E4BD566)
+I (..\system\delay.h)(0x5E4BD567)
+I (..\radio\radio.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\boards\sx126x-board.h)(0x5E4BD567)
+I (..\radio\sx126x/sx126x.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\system\gpio.h)(0x5E4BD567)
+I (..\boards\pinName-board.h)(0x5E4BD567)
+I (..\boards\pinName-ioe.h)(0x5E4BD567)
+I (..\system\spi.h)(0x5E4BD567)
+F (..\boards\mcu\utilities.c)(0x5E3BCDFA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\utilities.o --omf_browse stm32l071_1262\utilities.crf --depend stm32l071_1262\utilities.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+F (../Src/main.c)(0x5E522E82)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\main.o --omf_browse stm32l071_1262\main.crf --depend stm32l071_1262\main.d)
+I (../Inc/main.h)(0x5E4FAE3F)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+I (../Inc/usart.h)(0x5E4FAE3F)
+I (..\system\gpio.h)(0x5E4BD567)
+I (..\boards\pinName-board.h)(0x5E4BD567)
+I (..\boards\pinName-ioe.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\boards\utilities.h)(0x5E4BD567)
+I (..\boards\board.h)(0x5E4BD566)
+I (..\mac\LoRaMac.h)(0x5E4BD567)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\system\timer.h)(0x5E4BD567)
+I (..\radio\radio.h)(0x5E4BD567)
+I (..\mac\region/Region.h)(0x5E4BD567)
+I (../Inc/Commissioning.h)(0x5E512E23)
+I (..\mac\LoRaMacTest.h)(0x5E4BD567)
+F (../Src/usart.c)(0x5E4FB269)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\usart.o --omf_browse stm32l071_1262\usart.crf --depend stm32l071_1262\usart.d)
+I (../Inc/usart.h)(0x5E4FAE3F)
+I (../Inc/main.h)(0x5E4FAE3F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+F (../Src/stm32l0xx_it.c)(0x5E4FEDC4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_it.o --omf_browse stm32l071_1262\stm32l0xx_it.crf --depend stm32l071_1262\stm32l0xx_it.d)
+I (../Inc/main.h)(0x5E4FAE3F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_it.h)(0x5E4FAE3F)
+F (../Src/stm32l0xx_hal_msp.c)(0x5E4FAE3F)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_msp.o --omf_browse stm32l071_1262\stm32l0xx_hal_msp.crf --depend stm32l071_1262\stm32l0xx_hal_msp.d)
+I (../Inc/main.h)(0x5E4FAE3F)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_tim_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_tim_ex.crf --depend stm32l071_1262\stm32l0xx_hal_tim_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_uart.o --omf_browse stm32l071_1262\stm32l0xx_hal_uart.crf --depend stm32l071_1262\stm32l0xx_hal_uart.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_uart_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_uart_ex.crf --depend stm32l071_1262\stm32l0xx_hal_uart_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal.o --omf_browse stm32l071_1262\stm32l0xx_hal.crf --depend stm32l071_1262\stm32l0xx_hal.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_i2c.o --omf_browse stm32l071_1262\stm32l0xx_hal_i2c.crf --depend stm32l071_1262\stm32l0xx_hal_i2c.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_i2c_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_i2c_ex.crf --depend stm32l071_1262\stm32l0xx_hal_i2c_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_rcc.o --omf_browse stm32l071_1262\stm32l0xx_hal_rcc.crf --depend stm32l071_1262\stm32l0xx_hal_rcc.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_rcc_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_rcc_ex.crf --depend stm32l071_1262\stm32l0xx_hal_rcc_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_flash_ramfunc.o --omf_browse stm32l071_1262\stm32l0xx_hal_flash_ramfunc.crf --depend stm32l071_1262\stm32l0xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_flash.o --omf_browse stm32l071_1262\stm32l0xx_hal_flash.crf --depend stm32l071_1262\stm32l0xx_hal_flash.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_flash_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_flash_ex.crf --depend stm32l071_1262\stm32l0xx_hal_flash_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_tim.o --omf_browse stm32l071_1262\stm32l0xx_hal_tim.crf --depend stm32l071_1262\stm32l0xx_hal_tim.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_gpio.o --omf_browse stm32l071_1262\stm32l0xx_hal_gpio.crf --depend stm32l071_1262\stm32l0xx_hal_gpio.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_dma.o --omf_browse stm32l071_1262\stm32l0xx_hal_dma.crf --depend stm32l071_1262\stm32l0xx_hal_dma.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_pwr.o --omf_browse stm32l071_1262\stm32l0xx_hal_pwr.crf --depend stm32l071_1262\stm32l0xx_hal_pwr.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_pwr_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_pwr_ex.crf --depend stm32l071_1262\stm32l0xx_hal_pwr_ex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_cortex.o --omf_browse stm32l071_1262\stm32l0xx_hal_cortex.crf --depend stm32l071_1262\stm32l0xx_hal_cortex.d)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_adc.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_adc.o --omf_browse stm32l071_1262\stm32l0xx_hal_adc.crf --depend stm32l071_1262\stm32l0xx_hal_adc.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_adc_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_adc_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_adc_ex.crf --depend stm32l071_1262\stm32l0xx_hal_adc_ex.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_comp.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_comp.o --omf_browse stm32l071_1262\stm32l0xx_hal_comp.crf --depend stm32l071_1262\stm32l0xx_hal_comp.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_comp_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_comp_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_comp_ex.crf --depend stm32l071_1262\stm32l0xx_hal_comp_ex.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_crc.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_crc.o --omf_browse stm32l071_1262\stm32l0xx_hal_crc.crf --depend stm32l071_1262\stm32l0xx_hal_crc.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_crc_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_crc_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_crc_ex.crf --depend stm32l071_1262\stm32l0xx_hal_crc_ex.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_cryp.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_cryp.o --omf_browse stm32l071_1262\stm32l0xx_hal_cryp.crf --depend stm32l071_1262\stm32l0xx_hal_cryp.d)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_cryp_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_cryp_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_cryp_ex.crf --depend stm32l071_1262\stm32l0xx_hal_cryp_ex.d)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_dac.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_dac.o --omf_browse stm32l071_1262\stm32l0xx_hal_dac.crf --depend stm32l071_1262\stm32l0xx_hal_dac.d)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_dac_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_dac_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_dac_ex.crf --depend stm32l071_1262\stm32l0xx_hal_dac_ex.d)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_firewall.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_firewall.o --omf_browse stm32l071_1262\stm32l0xx_hal_firewall.crf --depend stm32l071_1262\stm32l0xx_hal_firewall.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2s.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_i2s.o --omf_browse stm32l071_1262\stm32l0xx_hal_i2s.crf --depend stm32l071_1262\stm32l0xx_hal_i2s.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_irda.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_irda.o --omf_browse stm32l071_1262\stm32l0xx_hal_irda.crf --depend stm32l071_1262\stm32l0xx_hal_irda.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_iwdg.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_iwdg.o --omf_browse stm32l071_1262\stm32l0xx_hal_iwdg.crf --depend stm32l071_1262\stm32l0xx_hal_iwdg.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_lcd.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_lcd.o --omf_browse stm32l071_1262\stm32l0xx_hal_lcd.crf --depend stm32l071_1262\stm32l0xx_hal_lcd.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_lptim.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_lptim.o --omf_browse stm32l071_1262\stm32l0xx_hal_lptim.crf --depend stm32l071_1262\stm32l0xx_hal_lptim.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pcd.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_pcd.o --omf_browse stm32l071_1262\stm32l0xx_hal_pcd.crf --depend stm32l071_1262\stm32l0xx_hal_pcd.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pcd_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_pcd_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_pcd_ex.crf --depend stm32l071_1262\stm32l0xx_hal_pcd_ex.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rng.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_rng.o --omf_browse stm32l071_1262\stm32l0xx_hal_rng.crf --depend stm32l071_1262\stm32l0xx_hal_rng.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rtc.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_rtc.o --omf_browse stm32l071_1262\stm32l0xx_hal_rtc.crf --depend stm32l071_1262\stm32l0xx_hal_rtc.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rtc_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_rtc_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_rtc_ex.crf --depend stm32l071_1262\stm32l0xx_hal_rtc_ex.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_smartcard.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_smartcard.o --omf_browse stm32l071_1262\stm32l0xx_hal_smartcard.crf --depend stm32l071_1262\stm32l0xx_hal_smartcard.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_smartcard_ex.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_smartcard_ex.o --omf_browse stm32l071_1262\stm32l0xx_hal_smartcard_ex.crf --depend stm32l071_1262\stm32l0xx_hal_smartcard_ex.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_smbus.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_smbus.o --omf_browse stm32l071_1262\stm32l0xx_hal_smbus.crf --depend stm32l071_1262\stm32l0xx_hal_smbus.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_spi.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_spi.o --omf_browse stm32l071_1262\stm32l0xx_hal_spi.crf --depend stm32l071_1262\stm32l0xx_hal_spi.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_tsc.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_tsc.o --omf_browse stm32l071_1262\stm32l0xx_hal_tsc.crf --depend stm32l071_1262\stm32l0xx_hal_tsc.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_usart.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_usart.o --omf_browse stm32l071_1262\stm32l0xx_hal_usart.crf --depend stm32l071_1262\stm32l0xx_hal_usart.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (..\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_wwdg.c)(0x5BD87F10)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\stm32l0xx_hal_wwdg.o --omf_browse stm32l071_1262\stm32l0xx_hal_wwdg.crf --depend stm32l071_1262\stm32l0xx_hal_wwdg.d)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (..\Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
+F (../Src/system_stm32l0xx.c)(0x5D32B9B6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I ../Drivers/CMSIS/Include -I ..\radio -I ..\radio\sx126x -I ..\boards -I ..\boards\STM32L071 -I ..\mac -I ..\mac\region -I ..\system -I ..\system\crypto -I ..\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy -I ..\Drivers\STM32L0xx_HAL_Driver\Inc-IC:\Users\Administrator\Desktop\SX1262\STM32L071_1262\MDK-ARM\RTE\_STM32L071_1262-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.1\Drivers\CMSIS\Device\ST\STM32L0xx\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32L071xx -DUSE_HAL_DRIVER -DSTM32L071xx -DUSE_HAL_DRIVER -DREGION_EU868-o stm32l071_1262\system_stm32l0xx.o --omf_browse stm32l071_1262\system_stm32l0xx.crf --depend stm32l071_1262\system_stm32l0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h)(0x5D32B9B6)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x5D32B9B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5D32B9B8)
+I (../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h)(0x5D32B9B6)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h)(0x5BD87F10)
+I (../Inc/stm32l0xx_hal_conf.h)(0x5E4FD385)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5BD87F10)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rtc_ex.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_spi.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h)(0x5BD87F10)
+I (../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h)(0x5BD87F10)
